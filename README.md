@@ -9,4 +9,4 @@ Interactive: An application that is more interactive, involving the scene create
 
 There is also the Appendices, for any extra inportant information, references, etc.
 
-This project will focus on a centre pillar, tall and made of stone, with "windows" down its length containing various objects, such as a sword, shield, lance, etc. The camera will pan down the tower slowly, rotating around it, until it coems to the bottom, where the shows title, dubbed "The Tower" will be located. The text for the Tower will use the sword model for the "T" in both words, while the other letters will be more simple 3d models.
+This project centres around a large, castle turret like tower, akin to a Rook from chess. The camera will pan up this structure to the top, before shifting to a top down view. The top of the tower will rotate aside, revealing the room below, which will contain an emblem. This floor will then rotate out, revealing another emblem, then a third, and finally, on the ground floor, the title of the TV show, "The Tower."
