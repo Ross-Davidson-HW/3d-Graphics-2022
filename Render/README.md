@@ -35,6 +35,12 @@ Logo part one: "THE" is made using another sword model as the "T" and large, cub
 Logo part two: "TOWER" once again making use of the sword model for the "T" while the other four letters are made in the same cubic design and using the same method as the ones used in "THE."
 - Largely the same as the methods used for "THE" though with some refinement on the creation of the letters as I figured out better ways of doing such tasks.
 
+Gloworb: A simple glowing orb of lava atop a golden stand. Inspiration was torches such as those from Ocarina of Time.
+- Made using a cube, with one extruded edge down the bottom to make the base.
+- A sphere was added and scaled down to be appropriately sized
+- The stand uses the gold texture used by the others. The area immediately beneath the orb uses granite, while th eorb itself makes use of the Red hot steel textures.
+- Each is equipped with a point light, tinted slightly orange, with a radius of 10 metres.
+
 Textures used:
 - Gold: Metal Fine Gold - PBR0107
 - Ruby: Bakelite Plastic 1 - PBR0103
@@ -42,3 +48,4 @@ Textures used:
 - Brick: Large Medieval Brick (S0014) (Legacy Content)
 - Mahogany: Varnished Red Mahogany Wood Veneer - PBR0367
 - Steel: Damascus Steel - PBR0101
+- Gloworb: Molten Red Hot Steel - PBR0176
