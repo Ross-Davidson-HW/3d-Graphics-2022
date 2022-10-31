@@ -1,1 +1,9 @@
+The models imported from Blender very easily! After using Maya last year, I expected to spend an entire night fixing models and textures as I had to back then, but Blender was smooth. That is not to say that there were not a few issues.
 
+For this, I exported the Blender models as an FBX file, using copy mode, and including the textures baked into the models. This worked for the most part. However the brick texture used for the Tower itself broke, for reasons I could not figure out. Thankfully Unreal has a very close texture by default, that in truth looks a bit better, and thus I applied that as a replacement.The sword part of "The" was also slightly affected by this, except it simply had applied the wrong textures to some part of the model, but simply changing them to the correct fixed all issues without needed further editting.
+
+The second issue was that all of the inside of the tower was culled. This took a few minutes to figure out how to fix, but ultimately was simple once figured out - I simply needed ot change the materials to be two-sided. This allowed the tower to properly display. A second issue that was not fixable however, was that for the "Tower" word model, the R had part of its model break. After examining everything I could, it appears to simply be an error that can't be fixed in Unreal. Thankfully, it doesn't break the model entirely and is still readable. Should time allow, I will attempt to fix this later, but we have other work that requires my focus, and this is relatively minor in the grand scheme of things.
+
+All of the lights had their intensity set to 5 million for some strange reason, but that was another simple fix by just adjusting their values down.
+
+The next stage will be to set up the camera and keyframes of the animation.
