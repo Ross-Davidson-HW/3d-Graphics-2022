@@ -1,0 +1,1013 @@
+﻿Log file open, 10/30/22 23:42:32
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogProfilingDebugging: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogWindows: Started CrashReportClient (pid=2536)
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: TheTower
+LogCore: UnrealTraceServer: Trace store launch successful
+LogCsvProfiler: Display: Metadata set : platform="Windows"
+LogCsvProfiler: Display: Metadata set : config="Development"
+LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.0-CL-20979098"
+LogCsvProfiler: Display: Metadata set : engineversion="5.0.3-20979098+++UE5+Release-5.0"
+LogCsvProfiler: Display: Metadata set : commandline="" "C:/Users/Fieran/Documents/Unreal Projects/TheTower/TheTower.uproject" -EpicPortal -epicusername=Faedrun -epicuserid=4e649b57f7184739be01c54c949cbb7a -epiclocale=en -epicsandboxid=ue""
+LogCsvProfiler: Display: Metadata set : os="Windows 11 (21H2) [10.0.22000.1098] "
+LogCsvProfiler: Display: Metadata set : cpu="GenuineIntel|Intel(R) Core(TM) i9-10900X CPU @ 3.70GHz"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : loginid="dcd136b44cdadd5116eca68e48b045ea"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogPlatformFile: Not using cached read wrapper
+LogStats: Stats thread started at 0.226613
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogInit: Session CrashGUID >====================================================
+         Session CrashGUID >   UECC-Windows-A997A0FD4B63D448E7A5E1849BA9D702
+         Session CrashGUID >====================================================
+LogConfig: Display: Loading HoloLens ini files took 0.03 seconds
+LogConfig: Display: Loading IOS ini files took 0.03 seconds
+LogConfig: Display: Loading Mac ini files took 0.03 seconds
+LogConfig: Display: Loading VulkanPC ini files took 0.03 seconds
+LogConfig: Display: Loading Android ini files took 0.03 seconds
+LogConfig: Display: Loading Windows ini files took 0.03 seconds
+LogConfig: Display: Loading Unix ini files took 0.03 seconds
+LogConfig: Display: Loading TVOS ini files took 0.04 seconds
+LogConfig: Display: Loading LinuxArm64 ini files took 0.04 seconds
+LogConfig: Display: Loading Linux ini files took 0.04 seconds
+LogPluginManager: Mounting Engine plugin FastBuildController
+LogPluginManager: Mounting Engine plugin Bridge
+LogPluginManager: Mounting Engine plugin MeshPainting
+LogPluginManager: Mounting Engine plugin XGEController
+LogPluginManager: Mounting Engine plugin PropertyAccessNode
+LogPluginManager: Mounting Engine plugin PerforceSourceControl
+LogPluginManager: Mounting Engine plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting Engine plugin GitSourceControl
+LogPluginManager: Mounting Engine plugin PluginUtils
+LogPluginManager: Mounting Engine plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting Engine plugin AnimationSharing
+LogPluginManager: Mounting Engine plugin NullSourceCodeAccess
+LogPluginManager: Mounting Engine plugin PlasticSourceControl
+LogPluginManager: Mounting Engine plugin RiderSourceCodeAccess
+LogPluginManager: Mounting Engine plugin PixWinPlugin
+LogPluginManager: Mounting Engine plugin CLionSourceCodeAccess
+LogPluginManager: Mounting Engine plugin Paper2D
+LogPluginManager: Mounting Engine plugin TraceDataFilters
+LogPluginManager: Mounting Engine plugin SubversionSourceControl
+LogPluginManager: Mounting Engine plugin UObjectPlugin
+LogPluginManager: Mounting Engine plugin TextureFormatOodle
+LogPluginManager: Mounting Engine plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting Engine plugin EnvironmentQueryEditor
+LogPluginManager: Mounting Engine plugin AISupport
+LogPluginManager: Mounting Engine plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin OodleNetwork
+LogPluginManager: Mounting Engine plugin DatasmithContent
+LogPluginManager: Mounting Engine plugin AutomationUtils
+LogPluginManager: Mounting Engine plugin BackChannel
+LogPluginManager: Mounting Engine plugin ChaosCloth
+LogPluginManager: Mounting Engine plugin ChaosEditor
+LogPluginManager: Mounting Engine plugin ChaosClothEditor
+LogPluginManager: Mounting Engine plugin ChaosSolverPlugin
+LogPluginManager: Mounting Engine plugin ChaosNiagara
+LogPluginManager: Mounting Engine plugin CharacterAI
+LogPluginManager: Mounting Engine plugin GameplayCameras
+LogPluginManager: Mounting Engine plugin CameraShakePreviewer
+LogPluginManager: Mounting Engine plugin VariantManagerContent
+LogPluginManager: Mounting Engine plugin AlembicImporter
+LogPluginManager: Mounting Engine plugin GeometryCollectionPlugin
+LogPluginManager: Mounting Engine plugin FullBodyIK
+LogPluginManager: Mounting Engine plugin GeometryFlow
+LogPluginManager: Mounting Engine plugin MeshModelingToolsetExp
+LogPluginManager: Mounting Engine plugin MeshLODToolset
+LogPluginManager: Mounting Engine plugin AnimationModifierLibrary
+LogPluginManager: Mounting Engine plugin OpenImageDenoise
+LogPluginManager: Mounting Engine plugin BlendSpaceMotionAnalysis
+LogPluginManager: Mounting Engine plugin ControlRig
+LogPluginManager: Mounting Engine plugin ControlRigSpline
+LogPluginManager: Mounting Engine plugin IKRig
+LogPluginManager: Mounting Engine plugin Niagara
+LogPluginManager: Mounting Engine plugin AndroidMedia
+LogPluginManager: Mounting Engine plugin AvfMedia
+LogPluginManager: Mounting Engine plugin MediaCompositing
+LogPluginManager: Mounting Engine plugin WebMMedia
+LogPluginManager: Mounting Engine plugin MediaPlayerEditor
+LogPluginManager: Mounting Engine plugin ImgMedia
+LogPluginManager: Mounting Engine plugin PlatformCrypto
+LogPluginManager: Mounting Engine plugin ProxyLODPlugin
+LogPluginManager: Mounting Engine plugin PlanarCut
+LogPluginManager: Mounting Engine plugin SkeletalReduction
+LogPluginManager: Mounting Engine plugin PythonScriptPlugin
+LogPluginManager: Mounting Engine plugin TcpMessaging
+LogPluginManager: Mounting Engine plugin ActorSequence
+LogPluginManager: Mounting Engine plugin UdpMessaging
+LogPluginManager: Mounting Engine plugin LevelSequenceEditor
+LogPluginManager: Mounting Engine plugin MatineeToLevelSequence
+LogPluginManager: Mounting Engine plugin WmfMedia
+LogPluginManager: Mounting Engine plugin SequencerScripting
+LogPluginManager: Mounting Engine plugin TemplateSequence
+LogPluginManager: Mounting Engine plugin LauncherChunkInstaller
+LogPluginManager: Mounting Engine plugin AssetManagerEditor
+LogPluginManager: Mounting Engine plugin CurveEditorTools
+LogPluginManager: Mounting Engine plugin FacialAnimation
+LogPluginManager: Mounting Engine plugin CryptoKeys
+LogPluginManager: Mounting Engine plugin DataValidation
+LogPluginManager: Mounting Engine plugin EditorDebugTools
+LogPluginManager: Mounting Engine plugin MacGraphicsSwitching
+LogPluginManager: Mounting Engine plugin GeometryMode
+LogPluginManager: Mounting Engine plugin EditorScriptingUtilities
+LogPluginManager: Mounting Engine plugin ModelingToolsEditorMode
+LogPluginManager: Mounting Engine plugin GameplayTagsEditor
+LogPluginManager: Mounting Engine plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting Engine plugin PluginBrowser
+LogPluginManager: Mounting Engine plugin MaterialAnalyzer
+LogPluginManager: Mounting Engine plugin SequencerAnimTools
+LogPluginManager: Mounting Engine plugin SpeedTreeImporter
+LogPluginManager: Mounting Engine plugin WorldPartitionHLODUtilities
+LogPluginManager: Mounting Engine plugin OnlineSubsystem
+LogPluginManager: Mounting Engine plugin StylusInput
+LogPluginManager: Mounting Engine plugin OnlineBase
+LogPluginManager: Mounting Engine plugin OnlineSubsystemUtils
+LogPluginManager: Mounting Engine plugin OnlineSubsystemNull
+LogPluginManager: Mounting Engine plugin ActorLayerUtilities
+LogPluginManager: Mounting Engine plugin AndroidFileServer
+LogPluginManager: Mounting Engine plugin AndroidPermission
+LogPluginManager: Mounting Engine plugin AndroidMoviePlayer
+LogPluginManager: Mounting Engine plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin AppleMoviePlayer
+LogPluginManager: Mounting Engine plugin AppleImageUtils
+LogPluginManager: Mounting Engine plugin ArchVisCharacter
+LogPluginManager: Mounting Engine plugin AudioCapture
+LogPluginManager: Mounting Engine plugin AssetTags
+LogPluginManager: Mounting Engine plugin CableComponent
+LogPluginManager: Mounting Engine plugin ChunkDownloader
+LogPluginManager: Mounting Engine plugin CustomMeshComponent
+LogPluginManager: Mounting Engine plugin GeometryCache
+LogPluginManager: Mounting Engine plugin GeometryProcessing
+LogPluginManager: Mounting Engine plugin GooglePAD
+LogPluginManager: Mounting Engine plugin GoogleCloudMessaging
+LogPluginManager: Mounting Engine plugin HairStrands
+LogPluginManager: Mounting Engine plugin AudioSynesthesia
+LogPluginManager: Mounting Engine plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LocationServicesBPLibrary
+LogPluginManager: Mounting Engine plugin MeshModelingToolset
+LogPluginManager: Mounting Engine plugin MobilePatchingUtils
+LogPluginManager: Mounting Engine plugin ProceduralMeshComponent
+LogPluginManager: Mounting Engine plugin PropertyAccessEditor
+LogPluginManager: Mounting Engine plugin SignificanceManager
+LogPluginManager: Mounting Engine plugin RuntimePhysXCooking
+LogPluginManager: Mounting Engine plugin ResonanceAudio
+LogPluginManager: Mounting Engine plugin Synthesis
+LogPluginManager: Mounting Engine plugin SoundFields
+LogPluginManager: Mounting Engine plugin WebMMoviePlayer
+LogPluginManager: Mounting Engine plugin WindowsDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin WindowsMoviePlayer
+LogPluginManager: Mounting Engine plugin Interchange
+LogPluginManager: Mounting Engine plugin InterchangeEditor
+LogPluginManager: Mounting Engine plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserFileDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting Engine plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting Engine plugin OnlineServices
+LogPluginManager: Mounting Engine plugin OnlineSubsystemIOS
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Bridge/Content/' mounted to '/Bridge/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Developer/AnimationSharing/Content/' mounted to '/AnimationSharing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/2D/Paper2D/Content/' mounted to '/Paper2D/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Enterprise/DatasmithContent/Content/' mounted to '/DatasmithContent/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosClothEditor/Content/' mounted to '/ChaosClothEditor/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosSolverPlugin/Content/' mounted to '/ChaosSolverPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosNiagara/Content/' mounted to '/ChaosNiagara/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/GeometryCollectionPlugin/Content/' mounted to '/GeometryCollectionPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/FullBodyIK/Content/' mounted to '/FullBodyIK/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/GeometryFlow/Content/' mounted to '/GeometryFlow/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/MeshModelingToolsetExp/Content/' mounted to '/MeshModelingToolsetExp/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/MeshLODToolset/Content/' mounted to '/MeshLODToolset/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/ControlRig/Content/' mounted to '/ControlRig/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/ControlRigSpline/Content/' mounted to '/ControlRigSpline/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/IKRig/Content/' mounted to '/IKRig/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/FX/Niagara/Content/' mounted to '/Niagara/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Media/MediaCompositing/Content/' mounted to '/MediaCompositing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/PythonScriptPlugin/Content/' mounted to '/PythonScriptPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/MovieScene/SequencerScripting/Content/' mounted to '/SequencerScripting/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/GeometryMode/Content/' mounted to '/GeometryMode/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/ModelingToolsEditorMode/Content/' mounted to '/ModelingToolsEditorMode/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/SpeedTreeImporter/Content/' mounted to '/SpeedTreeImporter/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/GeometryProcessing/Content/' mounted to '/GeometryProcessing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/HairStrands/Content/' mounted to '/HairStrands/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/AudioSynesthesia/Content/' mounted to '/AudioSynesthesia/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/MeshModelingToolset/Content/' mounted to '/MeshModelingToolset/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/ResonanceAudio/Content/' mounted to '/ResonanceAudio/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/Synthesis/Content/' mounted to '/Synthesis/'
+SourceControl: Source control is disabled
+SourceControl: Source control is disabled
+PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: Created online subsystem instance for: NULL
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE5+Release-5.0-CL-20979098
+LogInit: Engine Version: 5.0.3-20979098+++UE5+Release-5.0
+LogInit: Compatible Engine Version: 5.0.0-19505902+++UE5+Release-5.0
+LogInit: Net CL: 19505902
+LogInit: OS: Windows 11 (21H2) [10.0.22000.1098] (), CPU: Intel(R) Core(TM) i9-10900X CPU @ 3.70GHz, GPU: NVIDIA GeForce RTX 2080 Ti
+LogInit: Compiled (64-bit): Jul  7 2022 02:16:06
+LogInit: Compiled with Visual C++: 19.29.30138.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE5+Release-5.0
+LogInit: Command Line:  -EpicPortal -epicusername=Faedrun -epicuserid=4e649b57f7184739be01c54c949cbb7a -epiclocale=en -epicsandboxid=ue
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/Win64/
+LogInit: Allocator: Mimalloc
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 34
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 20
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 45
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 59
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 3
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   UE5-Main (697DD581-E64F-41AB-AA4A-51ECBEB7B628): 59
+LogDevObjectVersion:   UE5-Release (D89B5E42-24BD-4D46-8412-ACA8DF641779): 36
+LogDevObjectVersion:   UE5-PrivateFrosty (59DA5D52-1232-4948-B878-597870B8E98B): 8
+LogDevObjectVersion:   UE5-Dev-Cooker (26075A32-730F-4708-88E9-8C32F1599D05): 0
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogDevObjectVersion:   UE5-Dev-LWCRendering (30D58BE3-95EA-4282-A6E3-B159D8EBB06A): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+LogConfig: CVar [[r.DetectAndWarnOfBadDrivers:0]] deferred - dummy variable created
+LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variable created
+LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+[2022.10.30-23.42.33:212][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [Engine]
+[2022.10.30-23.42.33:212][  0]LogConfig: CVar [[VisualizeCalibrationColorMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationColor.PPM_DefaultCalibrationColor]] deferred - dummy variable created
+[2022.10.30-23.42.33:212][  0]LogConfig: CVar [[VisualizeCalibrationGrayscaleMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationGrayscale.PPM_DefaultCalibrationGrayscale]] deferred - dummy variable created
+[2022.10.30-23.42.33:212][  0]LogConfig: CVar [[MaxSkinBones:(Default=65536,PerPlatform=(("Mobile", 256)))]] deferred - dummy variable created
+[2022.10.30-23.42.33:212][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [Engine]
+[2022.10.30-23.42.33:212][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [Engine]
+[2022.10.30-23.42.33:212][  0]LogConfig: CVar [[s.MaxPackageSummarySize:16384]] deferred - dummy variable created
+[2022.10.30-23.42.33:212][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__SoundBase]] deferred - dummy variable created
+[2022.10.30-23.42.33:212][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__MaterialInterface]] deferred - dummy variable created
+[2022.10.30-23.42.33:212][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__DeviceProfileManager]] deferred - dummy variable created
+[2022.10.30-23.42.33:212][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [Engine]
+[2022.10.30-23.42.33:212][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [Engine]
+[2022.10.30-23.42.33:212][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Average",ToolTip="Simulates average internet conditions")]] deferred - dummy variable created
+[2022.10.30-23.42.33:212][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Bad",ToolTip="Simulates laggy internet conditions")]] deferred - dummy variable created
+[2022.10.30-23.42.33:212][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [Engine]
+[2022.10.30-23.42.33:212][  0]LogConfig: CVar [[DefaultPVRTCQuality:1]] deferred - dummy variable created
+[2022.10.30-23.42.33:212][  0]LogConfig: CVar [[DefaultASTCQualityBySpeed:1]] deferred - dummy variable created
+[2022.10.30-23.42.33:212][  0]LogConfig: CVar [[DefaultASTCQualityBySize:3]] deferred - dummy variable created
+[2022.10.30-23.42.33:212][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:WidgetBlueprint]] deferred - dummy variable created
+[2022.10.30-23.42.33:212][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GroupActor]] deferred - dummy variable created
+[2022.10.30-23.42.33:212][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MetaData]] deferred - dummy variable created
+[2022.10.30-23.42.33:212][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ObjectRedirector]] deferred - dummy variable created
+[2022.10.30-23.42.33:212][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NavMeshRenderingComponent]] deferred - dummy variable created
+[2022.10.30-23.42.33:212][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ReflectionCaptureComponent]] deferred - dummy variable created
+[2022.10.30-23.42.33:212][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:TextRenderComponent]] deferred - dummy variable created
+[2022.10.30-23.42.33:212][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:Font]] deferred - dummy variable created
+[2022.10.30-23.42.33:212][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:InterpCurveEdSetup]] deferred - dummy variable created
+[2022.10.30-23.42.33:212][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MaterialExpression]] deferred - dummy variable created
+[2022.10.30-23.42.33:212][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MatineeActorCameraAnim]] deferred - dummy variable created
+[2022.10.30-23.42.33:212][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraEmitter]] deferred - dummy variable created
+[2022.10.30-23.42.33:212][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraScript]] deferred - dummy variable created
+[2022.10.30-23.42.33:212][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleEmitter]] deferred - dummy variable created
+[2022.10.30-23.42.33:212][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleLODLevel]] deferred - dummy variable created
+[2022.10.30-23.42.33:212][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleModule]] deferred - dummy variable created
+[2022.10.30-23.42.33:212][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SubUVAnimation]] deferred - dummy variable created
+[2022.10.30-23.42.33:212][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SoundNode]] deferred - dummy variable created
+[2022.10.30-23.42.33:212][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GameplayEffectUIData]] deferred - dummy variable created
+[2022.10.30-23.42.33:212][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:WidgetBlueprint]] deferred - dummy variable created
+[2022.10.30-23.42.33:212][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:GroupActor]] deferred - dummy variable created
+[2022.10.30-23.42.33:212][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:MetaData]] deferred - dummy variable created
+[2022.10.30-23.42.33:212][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:ObjectRedirector]] deferred - dummy variable created
+[2022.10.30-23.42.33:212][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:InterpCurveEdSetup]] deferred - dummy variable created
+[2022.10.30-23.42.33:212][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:MatineeActorCameraAnim]] deferred - dummy variable created
+[2022.10.30-23.42.33:212][  0]LogConfig: CVar [[VersionedIntRValues:r.AllowStaticLighting]] deferred - dummy variable created
+[2022.10.30-23.42.33:212][  0]LogConfig: CVar [[VersionedIntRValues:r.GBuffer]] deferred - dummy variable created
+[2022.10.30-23.42.33:212][  0]LogConfig: CVar [[VersionedIntRValues:r.VelocityOutputPass]] deferred - dummy variable created
+[2022.10.30-23.42.33:212][  0]LogConfig: CVar [[VersionedIntRValues:r.SelectiveBasePassOutputs]] deferred - dummy variable created
+[2022.10.30-23.42.33:212][  0]LogConfig: CVar [[VersionedIntRValues:r.DBuffer]] deferred - dummy variable created
+[2022.10.30-23.42.33:212][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Symbols]] deferred - dummy variable created
+[2022.10.30-23.42.33:212][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.GenerateSymbols]] deferred - dummy variable created
+[2022.10.30-23.42.33:212][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.WriteSymbols]] deferred - dummy variable created
+[2022.10.30-23.42.33:212][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.AllowUniqueSymbols]] deferred - dummy variable created
+[2022.10.30-23.42.33:212][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.ExtraData]] deferred - dummy variable created
+[2022.10.30-23.42.33:212][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Optimize]] deferred - dummy variable created
+[2022.10.30-23.42.33:212][  0]LogConfig: CVar [[VersionedIntRValues:r.CompileShadersForDevelopment]] deferred - dummy variable created
+[2022.10.30-23.42.33:212][  0]LogConfig: CVar [[VersionedIntRValues:r.MobileHDR]] deferred - dummy variable created
+[2022.10.30-23.42.33:212][  0]LogConfig: CVar [[VersionedIntRValues:r.UsePreExposure]] deferred - dummy variable created
+[2022.10.30-23.42.33:214][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [Scalability]
+[2022.10.30-23.42.33:214][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [Scalability]
+[2022.10.30-23.42.33:214][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [Scalability]
+[2022.10.30-23.42.33:214][  0]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@3] File [Scalability]
+[2022.10.30-23.42.33:214][  0]LogConfig: Applying CVar settings from Section [ReflectionQuality@3] File [Scalability]
+[2022.10.30-23.42.33:214][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [Scalability]
+[2022.10.30-23.42.33:214][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [Scalability]
+[2022.10.30-23.42.33:214][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [Scalability]
+[2022.10.30-23.42.33:214][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [Scalability]
+[2022.10.30-23.42.33:214][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [Scalability]
+[2022.10.30-23.42.33:214][  0]LogConfig: CVar [[r.HairStrands.Interpolation.UseSingleGuide:0]] deferred - dummy variable created
+[2022.10.30-23.42.33:228][  0]LogD3D12RHI: Aftermath initialized
+[2022.10.30-23.42.33:228][  0]LogD3D12RHI: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+[2022.10.30-23.42.33:325][  0]LogD3D12RHI: Found D3D12 adapter 0: NVIDIA GeForce RTX 2080 Ti (Max supported Feature Level 12_1, shader model 6.6)
+[2022.10.30-23.42.33:325][  0]LogD3D12RHI: Adapter has 11041MB of dedicated video memory, 0MB of dedicated system memory, and 16222MB of shared system memory, 3 output[s]
+[2022.10.30-23.42.33:333][  0]LogD3D12RHI: Found D3D12 adapter 1: Microsoft Basic Render Driver (Max supported Feature Level 12_1, shader model 6.2)
+[2022.10.30-23.42.33:333][  0]LogD3D12RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 16222MB of shared system memory, 0 output[s]
+[2022.10.30-23.42.33:333][  0]LogD3D12RHI: Chosen D3D12 Adapter Id = 0
+[2022.10.30-23.42.33:334][  0]LogInit: Selected Device Profile: [WindowsEditor]
+[2022.10.30-23.42.33:334][  0]LogDeviceProfileManager: Applying CVar settings loaded from the selected device profile: [WindowsEditor]
+[2022.10.30-23.42.33:334][  0]LogHAL: Display: Platform has ~ 32 GB [34020364288 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2022.10.30-23.42.33:334][  0]LogDeviceProfileManager: Going up to parent DeviceProfile [Windows]
+[2022.10.30-23.42.33:334][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2022.10.30-23.42.33:334][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2022.10.30-23.42.33:334][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
+[2022.10.30-23.42.33:334][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Fieran/Documents/Unreal Projects/TheTower/Saved/Config/WindowsEditor/Editor.ini]
+[2022.10.30-23.42.33:334][  0]LogInit: Computer: FIREBIRD
+[2022.10.30-23.42.33:334][  0]LogInit: User: Fieran
+[2022.10.30-23.42.33:334][  0]LogInit: CPU Page size=4096, Cores=10
+[2022.10.30-23.42.33:334][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2022.10.30-23.42.33:334][  0]LogMemory: Memory total: Physical=31.7GB (32GB approx)
+[2022.10.30-23.42.33:334][  0]LogMemory: Platform Memory Stats for WindowsEditor
+[2022.10.30-23.42.33:334][  0]LogMemory: Process Physical Memory: 289.02 MB used, 297.57 MB peak
+[2022.10.30-23.42.33:334][  0]LogMemory: Process Virtual Memory: 264.40 MB used, 264.40 MB peak
+[2022.10.30-23.42.33:334][  0]LogMemory: Physical Memory: 13781.66 MB used,  18662.68 MB free, 32444.35 MB total
+[2022.10.30-23.42.33:334][  0]LogMemory: Virtual Memory: 19033.23 MB used,  37987.12 MB free, 57020.35 MB total
+[2022.10.30-23.42.33:334][  0]LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2022.10.30-23.42.33:339][  0]LogWindows: WindowsPlatformFeatures enabled
+[2022.10.30-23.42.33:353][  0]LogInit: Physics initialised using underlying interface: Chaos
+[2022.10.30-23.42.33:354][  0]LogInit: Using OS detected language (en-GB).
+[2022.10.30-23.42.33:354][  0]LogInit: Using OS detected locale (en-GB).
+[2022.10.30-23.42.33:356][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so 'en' will be used for the language.
+[2022.10.30-23.42.33:523][  0]LogInit: Setting process to per monitor DPI aware
+[2022.10.30-23.42.33:535][  0]LogWindowsTextInputMethodSystem: Available input methods:
+[2022.10.30-23.42.33:535][  0]LogWindowsTextInputMethodSystem:   - English (United Kingdom) - (Keyboard).
+[2022.10.30-23.42.33:535][  0]LogWindowsTextInputMethodSystem: Activated input method: English (United Kingdom) - (Keyboard).
+[2022.10.30-23.42.33:546][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2022.10.30-23.42.33:546][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2022.10.30-23.42.33:637][  0]LogD3D12RHI: InitD3DDevice: -D3DDebug = off -D3D12GPUValidation = off
+[2022.10.30-23.42.33:640][  0]LogD3D12RHI: [Aftermath] Aftermath crash dumping enabled
+[2022.10.30-23.42.33:640][  0]LogD3D12RHI: Emitting draw events for PIX profiling.
+[2022.10.30-23.42.33:699][  0]LogD3D12RHI: [Aftermath] Aftermath enabled and primed
+[2022.10.30-23.42.33:699][  0]LogD3D12RHI: [Aftermath] Aftermath resource tracking enabled
+[2022.10.30-23.42.33:699][  0]LogD3D12RHI: ID3D12Device1 is supported.
+[2022.10.30-23.42.33:699][  0]LogD3D12RHI: ID3D12Device2 is supported.
+[2022.10.30-23.42.33:699][  0]LogD3D12RHI: ID3D12Device3 is supported.
+[2022.10.30-23.42.33:699][  0]LogD3D12RHI: ID3D12Device4 is supported.
+[2022.10.30-23.42.33:699][  0]LogD3D12RHI: ID3D12Device5 is supported.
+[2022.10.30-23.42.33:699][  0]LogD3D12RHI: ID3D12Device6 is supported.
+[2022.10.30-23.42.33:699][  0]LogD3D12RHI: ID3D12Device7 is supported.
+[2022.10.30-23.42.33:699][  0]LogD3D12RHI: D3D12 ray tracing tier 1.0 is supported.
+[2022.10.30-23.42.33:699][  0]LogD3D12RHI: D3D12 ray tracing tier 1.1 is supported.
+[2022.10.30-23.42.33:699][  0]LogD3D12RHI: Mesh shader tier 1.0 is supported
+[2022.10.30-23.42.33:699][  0]LogD3D12RHI: AtomicInt64OnTypedResource is supported
+[2022.10.30-23.42.33:699][  0]LogD3D12RHI: AtomicInt64OnGroupShared is supported
+[2022.10.30-23.42.33:699][  0]LogD3D12RHI: AtomicInt64OnDescriptorHeapResource is supported
+[2022.10.30-23.42.33:699][  0]LogD3D12RHI: Shader Model 6.6 atomic64 is supported
+[2022.10.30-23.42.33:728][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for 3D Queue 0
+[2022.10.30-23.42.33:733][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for Copy Queue 0
+[2022.10.30-23.42.33:743][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for Compute Queue 0
+[2022.10.30-23.42.33:770][  0]LogD3D12RHI: Display: Not using pipeline state disk cache per r.D3D12.PSO.DiskCache=0
+[2022.10.30-23.42.33:770][  0]LogD3D12RHI: Display: Not using driver-optimized pipeline state disk cache per r.D3D12.PSO.DriverOptimizedDiskCache=0
+[2022.10.30-23.42.33:799][  0]LogD3D12RHI:     GPU DeviceId: 0x1e07 (for the marketing name, search the web for "GPU Device Id")
+[2022.10.30-23.42.33:799][  0]LogWindows: Attached monitors:
+[2022.10.30-23.42.33:799][  0]LogWindows:     resolution: 2560x1440, work area: (0, 0) -> (2498, 1440), device: '\\.\DISPLAY1' [PRIMARY]
+[2022.10.30-23.42.33:799][  0]LogWindows:     resolution: 2560x1440, work area: (-2560, 0) -> (-62, 1440), device: '\\.\DISPLAY2'
+[2022.10.30-23.42.33:799][  0]LogWindows:     resolution: 1920x1080, work area: (2560, 0) -> (4418, 1080), device: '\\.\DISPLAY3'
+[2022.10.30-23.42.33:799][  0]LogWindows: Found 3 attached monitors.
+[2022.10.30-23.42.33:799][  0]LogWindows: EnumDisplayDevices:
+[2022.10.30-23.42.33:799][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2080 Ti' (P:1 D:1), name: '\\.\DISPLAY1'
+[2022.10.30-23.42.33:800][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2080 Ti' (P:0 D:1), name: '\\.\DISPLAY2'
+[2022.10.30-23.42.33:800][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2080 Ti' (P:0 D:1), name: '\\.\DISPLAY3'
+[2022.10.30-23.42.33:800][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080 Ti' (P:0 D:0), name: '\\.\DISPLAY4'
+[2022.10.30-23.42.33:800][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2022.10.30-23.42.33:800][  0]LogD3D12RHI:     Adapter Name: NVIDIA GeForce RTX 2080 Ti
+[2022.10.30-23.42.33:800][  0]LogD3D12RHI:   Driver Version: 526.47 (internal:31.0.15.2647, unified:526.47)
+[2022.10.30-23.42.33:800][  0]LogD3D12RHI:      Driver Date: 10-25-2022
+[2022.10.30-23.42.33:800][  0]LogRHI: Texture pool is 6471 MB (70% of 9245 MB)
+[2022.10.30-23.42.33:800][  0]LogD3D12RHI: Async texture creation enabled
+[2022.10.30-23.42.33:800][  0]LogD3D12RHI: RHI has support for 64 bit atomics
+[2022.10.30-23.42.33:809][  0]LogRHI: GeForceNow SDK initialized: 0
+[2022.10.30-23.42.33:814][  0]LogTurnkeySupport: Running Turnkey SDK detection: ' -ScriptsForProject="C:/Users/Fieran/Documents/Unreal Projects/TheTower/TheTower.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/Fieran/Documents/Unreal Projects/TheTower/Intermediate/TurnkeyReport_0.log" -log="C:/Users/Fieran/Documents/Unreal Projects/TheTower/Intermediate/TurnkeyLog_0.log" -project="C:/Users/Fieran/Documents/Unreal Projects/TheTower/TheTower.uproject"  -platform=all'
+[2022.10.30-23.42.33:814][  0]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""C:/Program Files/Epic Games/UE_5.0/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="C:/Users/Fieran/Documents/Unreal Projects/TheTower/TheTower.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/Fieran/Documents/Unreal Projects/TheTower/Intermediate/TurnkeyReport_0.log" -log="C:/Users/Fieran/Documents/Unreal Projects/TheTower/Intermediate/TurnkeyLog_0.log" -project="C:/Users/Fieran/Documents/Unreal Projects/TheTower/TheTower.uproject"  -platform=all" ]
+[2022.10.30-23.42.33:833][  0]LogTextureFormatETC2: Display: ETC2 Texture loading DLL: TextureConverter.dll
+[2022.10.30-23.42.33:839][  0]LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.5
+[2022.10.30-23.42.33:839][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.5.dll
+[2022.10.30-23.42.33:846][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2022.10.30-23.42.33:846][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2022.10.30-23.42.33:846][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2022.10.30-23.42.33:846][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2022.10.30-23.42.33:846][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2022.10.30-23.42.33:846][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2022.10.30-23.42.33:846][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2022.10.30-23.42.33:846][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2022.10.30-23.42.33:846][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2022.10.30-23.42.33:846][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2022.10.30-23.42.33:864][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'HoloLens'
+[2022.10.30-23.42.33:864][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'HoloLensClient'
+[2022.10.30-23.42.33:867][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2022.10.30-23.42.33:867][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2022.10.30-23.42.33:869][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2022.10.30-23.42.33:869][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxEditor'
+[2022.10.30-23.42.33:869][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2022.10.30-23.42.33:869][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2022.10.30-23.42.33:871][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64'
+[2022.10.30-23.42.33:871][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Server'
+[2022.10.30-23.42.33:871][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Client'
+[2022.10.30-23.42.33:874][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2022.10.30-23.42.33:874][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2022.10.30-23.42.33:878][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2022.10.30-23.42.33:878][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+[2022.10.30-23.42.33:879][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2022.10.30-23.42.33:879][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2022.10.30-23.42.33:879][  0]LogTargetPlatformManager: Display: Building Assets For WindowsEditor
+[2022.10.30-23.42.33:885][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2022.10.30-23.42.33:887][  0]LogTargetPlatformManager: Unable to find audio format BINKA from hinted modules, loading all potential format modules to find it
+[2022.10.30-23.42.33:887][  0]LogTargetPlatformManager: Loaded format module AudioFormatADPCM
+[2022.10.30-23.42.33:887][  0]LogTargetPlatformManager:   ADPCM
+[2022.10.30-23.42.33:887][  0]LogTargetPlatformManager:   PCM
+[2022.10.30-23.42.33:890][  0]LogTargetPlatformManager: Loaded format module AudioFormatBink
+[2022.10.30-23.42.33:890][  0]LogTargetPlatformManager:   BINKA
+[2022.10.30-23.42.33:890][  0]LogTargetPlatformManager: Loaded format module AudioFormatOgg
+[2022.10.30-23.42.33:890][  0]LogTargetPlatformManager:   OGG
+[2022.10.30-23.42.33:890][  0]LogTargetPlatformManager: Loaded format module AudioFormatOpus
+[2022.10.30-23.42.33:890][  0]LogTargetPlatformManager:   OPUS
+[2022.10.30-23.42.33:923][  0]LogTurnkeySupport: Completed SDK detection: ExitCode = 0
+[2022.10.30-23.42.33:923][  0]LogTargetPlatformManager: Unable to find shader format SF_METAL from hinted modules, loading all potential format modules to find it
+[2022.10.30-23.42.33:928][  0]LogTargetPlatformManager: Loaded format module MetalShaderFormat
+[2022.10.30-23.42.33:928][  0]LogTargetPlatformManager:   SF_METAL
+[2022.10.30-23.42.33:928][  0]LogTargetPlatformManager:   SF_METAL_MRT
+[2022.10.30-23.42.33:928][  0]LogTargetPlatformManager:   SF_METAL_TVOS
+[2022.10.30-23.42.33:928][  0]LogTargetPlatformManager:   SF_METAL_MRT_TVOS
+[2022.10.30-23.42.33:928][  0]LogTargetPlatformManager:   SF_METAL_SM5
+[2022.10.30-23.42.33:928][  0]LogTargetPlatformManager:   SF_METAL_MACES3_1
+[2022.10.30-23.42.33:928][  0]LogTargetPlatformManager:   SF_METAL_MRT_MAC
+[2022.10.30-23.42.33:928][  0]LogTargetPlatformManager: Loaded format module ShaderFormatD3D
+[2022.10.30-23.42.33:928][  0]LogTargetPlatformManager:   PCD3D_SM6
+[2022.10.30-23.42.33:928][  0]LogTargetPlatformManager:   PCD3D_SM5
+[2022.10.30-23.42.33:928][  0]LogTargetPlatformManager:   PCD3D_ES31
+[2022.10.30-23.42.33:928][  0]LogTargetPlatformManager:   D3D_ES3_1_HOLOLENS
+[2022.10.30-23.42.33:928][  0]LogTargetPlatformManager: Loaded format module ShaderFormatOpenGL
+[2022.10.30-23.42.33:928][  0]LogTargetPlatformManager:   GLSL_150_ES31
+[2022.10.30-23.42.33:928][  0]LogTargetPlatformManager:   GLSL_ES3_1_ANDROID
+[2022.10.30-23.42.33:930][  0]LogTargetPlatformManager: Loaded format module ShaderFormatVectorVM
+[2022.10.30-23.42.33:930][  0]LogTargetPlatformManager:   VVM_1_0
+[2022.10.30-23.42.33:930][  0]LogTargetPlatformManager: Loaded format module VulkanShaderFormat
+[2022.10.30-23.42.33:930][  0]LogTargetPlatformManager:   SF_VULKAN_SM5
+[2022.10.30-23.42.33:930][  0]LogTargetPlatformManager:   SF_VULKAN_ES31_ANDROID
+[2022.10.30-23.42.33:930][  0]LogTargetPlatformManager:   SF_VULKAN_ES31
+[2022.10.30-23.42.33:930][  0]LogTargetPlatformManager:   SF_VULKAN_SM5_ANDROID
+[2022.10.30-23.42.33:931][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2022.10.30-23.42.33:931][  0]LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../Users/Fieran/Documents/Unreal Projects/TheTower/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+[2022.10.30-23.42.33:931][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2022.10.30-23.42.33:931][  0]LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../Users/Fieran/Documents/Unreal Projects/TheTower/Intermediate/ShaderAutogen/PCD3D_ES31/AutogenShaderHeaders.ush
+[2022.10.30-23.42.33:932][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2022.10.30-23.42.33:934][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Fieran/Documents/Unreal Projects/TheTower/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2022.10.30-23.42.33:934][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchy Hierarchy.
+[2022.10.30-23.42.33:934][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Fieran/Documents/Unreal Projects/TheTower/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.10.30-23.42.33:934][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchy Hierarchy.
+[2022.10.30-23.42.33:953][  0]LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (1230 MiB)
+[2022.10.30-23.42.33:953][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.10.30-23.42.33:953][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchy Hierarchy.
+[2022.10.30-23.42.33:960][  0]LogDerivedDataCache: Speed tests for C:/Users/Fieran/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.01 seconds
+[2022.10.30-23.42.33:960][  0]LogDerivedDataCache: Display: Performance to C:/Users/Fieran/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.02ms. RandomReadSpeed=318.99MBs, RandomWriteSpeed=242.36MBs. Assigned SpeedClass 'Local'
+[2022.10.30-23.42.33:961][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Fieran/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2022.10.30-23.42.33:961][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2022.10.30-23.42.33:961][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchy Hierarchy.
+[2022.10.30-23.42.33:967][  0]LogVirtualization: VirtualizationSystem name found in ini file: None
+[2022.10.30-23.42.33:967][  0]LogVirtualization: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2022.10.30-23.42.33:968][  0]LogShaderCompilers: Guid format shader working directory is -18 characters bigger than the processId version (../../../../../../Users/Fieran/Documents/Unreal Projects/TheTower/Intermediate/Shaders/WorkingDirectory/9824/).
+[2022.10.30-23.42.33:968][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Fieran/AppData/Local/Temp/UnrealShaderWorkingDir/31B5917D40CA4F01AE1738BA43EC34C4/'.
+[2022.10.30-23.42.33:968][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2022.10.30-23.42.33:968][  0]LogShaderCompilers: Display: Using Local Shader Compiler with 10 workers.
+[2022.10.30-23.42.35:246][  0]LogSlate: Using FreeType 2.10.0
+[2022.10.30-23.42.35:246][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.10.30-23.42.35:278][  0]LogAssetRegistry: FAssetRegistry took 0.0129 seconds to start up
+[2022.10.30-23.42.35:282][  0]LogEditorDomain: Display: EditorDomain is Disabled
+[2022.10.30-23.42.35:451][  0]LogSerialization: UsePackageTrailer: 'false'
+[2022.10.30-23.42.35:452][  0]LogTexture: Display: Texture Encode Speed: FinalIfAvailable (editor).
+[2022.10.30-23.42.35:704][  0]LogInit: Selected Device Profile: [WindowsEditor]
+[2022.10.30-23.42.35:704][  0]LogDeviceProfileManager: Active device profile: [00000AE91A317700][00000AE90EFF5000 50] WindowsEditor
+[2022.10.30-23.42.35:704][  0]LogDeviceProfileManager: Profiles: [00000AE91A3171C0][00000AE90EFFA000 50] Windows, [00000AE91A317700][00000AE90EFF5000 50] WindowsEditor, [00000AE91A316200][00000AE90EFF2800 50] WindowsServer, [00000AE91A3147C0][00000AE90EE7A000 50] WindowsClient, [00000AE91A314D00][00000AE90EFF7800 50] IOS, [00000AE91A3178C0][00000AE91A650000 50] iPadAir2, [00000AE91A317FC0][00000AE91A657800 50] IPadPro, [00000AE91A318340][00000AE91A655000 50] iPadAir3, [00000AE91A3163C0][00000AE91A65A000 50] iPadAir4, [00000AE91A314B40][00000AE91A65C800 50] iPadMini4, [00000AE91A314EC0][00000AE8F2F25000 50] iPadMini5, [00000AE91A317000][00000AE91A6A0000 50] iPadMini6, [00000AE91A31B0C0][00000AE91A6AA000 50] iPhone6S, [00000AE91A31B440][00000AE91A6A7800 50] iPhone7, [00000AE91A31B7C0][00000AE91A6A5000 50] iPodTouch7, [00000AE91A317540][00000AE91A6AC800 50] iPhone6SPlus, [00000AE91A31A9C0][00000AE91A652800 50] iPhone7Plus, [00000AE91A3186C0][00000AE91A6C0000 50] iPhoneSE, [00000AE91A314980][00000AE91A6C5000 50] iPhone8, [00000AE91A319300][00000AE91A6C7800 50] iPhone8Plus, [00000AE91A315240][00000AE91A6CA000 50] iPhoneX, [00000AE91A314280][00000AE91A6CC800 50] iPhoneXS, [00000AE91A319A00][00000AE91A6A2800 50] iPhoneXSMax, [00000AE91A316740][00000AE91A6D0000 50] iPhoneXR, [00000AE91A318C00][00000AE91A6D5000 50] iPhone11, [00000AE91A318F80][00000AE91A6D7800 50] iPhone11Pro, [00000AE91A3155C0][00000AE91A6DA000 50] iPhone11ProMax, [00000AE91A316E40][00000AE91A6DC800 50] iPhoneSE2, [00000AE91A319F40][00000AE91A6C2800 50] iPhone12Mini, [00000AE91A318180][00000AE91A6E0000 50] iPhone12, [00000AE91A31AB80][00000AE91A6E5000 50] iPhone12Pro, [00000AE91A318880][00000AE91A6E7800 50] iPhone12ProMax, [00000AE91A31A2C0][00000AE91A6EA000 50] iPhone13Mini, [00000AE91A316580][00000AE91A6EC800 50] iPhone13, [00000AE91A319840][00000AE91A6D2800 50] iPhone13Pro, [00000AE91A312840][00000AE91A6F0000 50] iPhone13ProMax, [00000AE91A31A640][00000AE91A6F5000 50] iPadPro105, [00000AE91A3132C0][00000AE91A6F7800 50] iPadPro129, [00000AE91A31A100][00000AE91A6FA000 50] iPadPro97, [00000AE91A315B00][00000AE91A6FC800 50] iPadPro2_129, [00000AE91A313D40][00000AE91A6E2800 50] iPad5, [00000AE91A313F00][00000AE91A700000 50] iPad6, [00000AE91A31AF00][00000AE91A705000 50] iPad7, [00000AE91A319680][00000AE91A707800 50] iPad8, [00000AE91A318A40][00000AE91A70A000 50] iPad9, [00000AE91A31B600][00000AE91A70C800 50] iPadPro11, [00000AE91A316C80][00000AE91A6F2800 50] iPadPro2_11, [00000AE91A318DC0][00000AE91A710000 50] iPadPro3_11, [00000AE91A313640][00000AE91A715000 50] iPadPro3_129, [00000AE91A318500][00000AE91A717800 50] iPadPro4_129, [00000AE91A313480][00000AE91A71A000 50] iPadPro5_129, [00000AE91A312F40][00000AE91A71C800 50] AppleTV, [00000AE91A313100][00000AE91A702800 50] AppleTV4K, [00000AE91A317E00][00000AE91A730000 50] TVOS, [00000AE91A31D200][00000AE91A737800 50] Mac, [00000AE91A31D580][00000AE91A735000 50] MacEditor, [00000AE91A31BEC0][00000AE91A73A000 50] MacClient, [00000AE91A31A800][00000AE91A73C800 50] MacServer, [00000AE91A31CE80][00000AE91A740000 50] Linux, [00000AE91A31BB40][00000AE91A742800 50] LinuxEditor, [00000AE91A315940][00000AE91A747800 50] LinuxArm64Editor, [00000AE91A316AC0][00000AE91A74A000 50] LinuxArm64, [00000AE91A313B80][00000AE91A74C800 50] LinuxClient, [00000AE91A31B280][00000AE91A712800 50] LinuxArm64Client, [00000AE91A3139C0][00000AE91A745000 50] LinuxServer, [00000AE91A319BC0][00000AE91A750000 50] LinuxArm64Server, [00000AE91A316900][00000AE91A755000 50] Android, [00000AE91A31CB00][00000AE91A757800 50] Android_Preview_OpenGL, [00000AE91A31C400][00000AE91A75A000 50] Android_Preview_Vulkan, [00000AE91A317C40][00000AE91A75C800 50] Android_Low, [00000AE91A31B980][00000AE91A732800 50] Android_Mid, [00000AE91A317A80][00000AE91A760000 50] Android_High, [00000AE91A315E80][00000AE91A765000 50] Android_Default, [00000AE91A31A480][00000AE91A767800 50] Android_Adreno4xx, [00000AE91A31C940][00000AE91A76A000 50] Android_Adreno5xx_Low, [00000AE91A31BD00][00000AE91A76C800 50] Android_Adreno5xx, [00000AE91A31DAC0][00000AE91A752800 50] Android_Adreno6xx, [00000AE91A31C240][00000AE91A770000 50] Android_Adreno6xx_Vulkan, [00000AE91A315CC0][00000AE91A775000 50] Android_Adreno7xx, [00000AE91A316040][00000AE91A777800 50] Android_Adreno7xx_Vulkan, [00000AE91A3194C0][00000AE91A77A000 50] Android_Mali_T6xx, [00000AE91A314440][00000AE91A77C800 50] Android_Mali_T7xx, [00000AE91A31D900][00000AE91A762800 50] Android_Mali_T8xx, [00000AE91A312D80][00000AE91A780000 50] Android_Mali_G71, [00000AE91A31D740][00000AE91A785000 50] Android_Mali_G72, [00000AE91A315080][00000AE91A787800 50] Android_Mali_G72_Vulkan, [00000AE91A313800][00000AE91A78A000 50] Android_Mali_G76, [00000AE91A315400][00000AE91A78C800 50] Android_Mali_G76_Vulkan, [00000AE91A31E380][00000AE91A772800 50] Android_Mali_G77, [00000AE91A314600][00000AE91A790000 50] Android_Mali_G77_Vulkan, [00000AE91A31E700][00000AE91A795000 50] Android_Mali_G78, [00000AE91A31E8C0][00000AE91A797800 50] Android_Mali_G78_Vulkan, [00000AE91A31DE40][00000AE91A79A000 50] Android_Mali_G710, [00000AE91A319140][00000AE91A79C800 50] Android_Mali_G710_Vulkan, [00000AE91A31D040][00000AE91A782800 50] Android_Xclipse_920, [00000AE91A3140C0][00000AE91A7A0000 50] Android_Xclipse_920_Vulkan, [00000AE91A31C080][00000AE91A7A5000 50] Android_Vulkan_SM5, [00000AE91A31F340][00000AE91A7A7800 50] Android_PowerVR_G6xxx, [00000AE91A31E1C0][00000AE91A7AA000 50] Android_PowerVR_GT7xxx, [00000AE91A31E540][00000AE91A7AC800 50] Android_PowerVR_GE8xxx, [00000AE91A31F880][00000AE91A792800 50] Android_PowerVR_GM9xxx, [00000AE91A7C0000][00000AE91A7B0000 50] Android_PowerVR_GM9xxx_Vulkan, [00000AE91A7C2300][00000AE91A7B5000 50] Android_TegraK1, [00000AE91A7C2140][00000AE91A7B7800 50] Android_Unknown_Vulkan, [00000AE91A7C1F80][00000AE91A7BA000 50] Oculus_Quest, [00000AE91A7C1DC0][00000AE91A7BC800 50] Oculus_Quest2, [00000AE91A7C1C00][00000AE91A7A2800 50] HoloLens, 
+[2022.10.30-23.42.35:704][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+[2022.10.30-23.42.35:724][  0]LogTexture: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+[2022.10.30-23.42.35:897][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2022.10.30-23.42.35:897][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2022.10.30-23.42.35:897][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2022.10.30-23.42.35:897][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2022.10.30-23.42.35:897][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2022.10.30-23.42.35:910][  0]LogNetVersion: TheTower 1.0.0, NetCL: 19505902, EngineNetVer: 23, GameNetVer: 0 (Checksum: 144455877)
+[2022.10.30-23.42.36:023][  0]LogSlate: Border
+[2022.10.30-23.42.36:023][  0]LogSlate: BreadcrumbButton
+[2022.10.30-23.42.36:023][  0]LogSlate: Default
+[2022.10.30-23.42.36:024][  0]LogSlate: Icons.Save
+[2022.10.30-23.42.36:024][  0]LogSlate: Icons.Toolbar.Settings
+[2022.10.30-23.42.36:024][  0]LogSlate: ListView
+[2022.10.30-23.42.36:024][  0]LogSlate: SoftwareCursor_CardinalCross
+[2022.10.30-23.42.36:024][  0]LogSlate: SoftwareCursor_Grab
+[2022.10.30-23.42.36:024][  0]LogSlate: TableView.DarkRow
+[2022.10.30-23.42.36:024][  0]LogSlate: TableView.Row
+[2022.10.30-23.42.36:024][  0]LogSlate: TreeView
+[2022.10.30-23.42.36:172][  0]SourceControl: Source control is disabled
+[2022.10.30-23.42.36:200][  0]SourceControl: Source control is disabled
+[2022.10.30-23.42.36:200][  0]SourceControl: Source control is disabled
+[2022.10.30-23.42.36:312][  0]LogUObjectArray: 20557 objects as part of root set at end of initial load.
+[2022.10.30-23.42.36:312][  0]LogUObjectAllocator: 5584256 out of 0 bytes used by permanent object pool.
+[2022.10.30-23.42.36:312][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2022.10.30-23.42.36:517][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: 771C98224457AF4E0D0FABACF869D8AC | Instance: A1818609461FEAAB74148C871C2926DC (FIREBIRD-9824).
+[2022.10.30-23.42.36:550][  0]LogPython: Using Python 3.9.7
+[2022.10.30-23.42.37:201][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2022.10.30-23.42.37:208][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2022.10.30-23.42.37:366][  0]SourceControl: Source control is disabled
+[2022.10.30-23.42.37:374][  0]SourceControl: Source control is disabled
+[2022.10.30-23.42.37:402][  0]SourceControl: Source control is disabled
+[2022.10.30-23.42.37:407][  0]LogUProjectInfo: Found projects:
+[2022.10.30-23.42.37:408][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2022.10.30-23.42.37:409][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2022.10.30-23.42.37:409][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2022.10.30-23.42.37:564][  0]LogOpenImageDenoise: OIDN starting up
+[2022.10.30-23.42.37:723][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2022.10.30-23.42.37:738][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.10.30-23.42.37:738][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.10.30-23.42.37:862][  0]LogCollectionManager: Loaded 0 collections in 0.001609 seconds
+[2022.10.30-23.42.37:893][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Fieran/Documents/Unreal Projects/TheTower/Saved/Collections/' took 0.00s
+[2022.10.30-23.42.37:893][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Fieran/Documents/Unreal Projects/TheTower/Content/Developers/Fieran/Collections/' took 0.00s
+[2022.10.30-23.42.37:893][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Fieran/Documents/Unreal Projects/TheTower/Content/Collections/' took 0.00s
+[2022.10.30-23.42.38:135][  0]LogEngine: Initializing Engine...
+[2022.10.30-23.42.38:149][  0]LogStylusInput: Initializing StylusInput subsystem.
+[2022.10.30-23.42.38:163][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2022.10.30-23.42.38:407][  0]LogInit: Initializing FReadOnlyCVARCache
+[2022.10.30-23.42.38:407][  0]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.30-23.42.38:417][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.30-23.42.38:447][  0]LogAIModule: Creating AISystem for world Untitled
+[2022.10.30-23.42.38:447][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2022.10.30-23.42.38:469][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2022.10.30-23.42.38:469][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2022.10.30-23.42.38:469][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2022.10.30-23.42.38:470][  0]LogAudio: Display: Audio Device Manager Initialized
+[2022.10.30-23.42.38:470][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2022.10.30-23.42.38:470][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.30-23.42.38:470][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.30-23.42.38:470][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.30-23.42.38:470][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.30-23.42.38:470][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.30-23.42.38:470][  0]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.30-23.42.38:470][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.30-23.42.38:470][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.30-23.42.38:470][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.30-23.42.38:470][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.30-23.42.38:470][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.30-23.42.38:475][  0]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.30-23.42.38:517][  0]LogAudioMixer: Display: Using Audio Hardware Device SPDIF Out (XONAR SOUND CARD)
+[2022.10.30-23.42.38:518][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.30-23.42.38:520][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.30-23.42.38:520][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.30-23.42.38:520][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2022.10.30-23.42.38:520][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2022.10.30-23.42.38:520][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2022.10.30-23.42.38:520][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=1
+[2022.10.30-23.42.38:520][  0]LogInit: FAudioDevice initialized.
+[2022.10.30-23.42.38:521][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2022.10.30-23.42.38:521][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2022.10.30-23.42.38:521][  0]LogInit: Texture streaming: Enabled
+[2022.10.30-23.42.38:555][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 5.0.3-20979098+++UE5+Release-5.0
+[2022.10.30-23.42.38:563][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2022.10.30-23.42.38:586][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2022.10.30-23.42.38:592][  0]LogLiveCoding: Display: Starting LiveCoding
+[2022.10.30-23.42.38:592][  0]LogLiveCoding: Display: LiveCodingConsole Arguments: UnrealEditor Win64 Development
+[2022.10.30-23.42.39:570][  0]LogLiveCoding: Display: First instance in process group "UE_TheTower_0xcabe0ec9", spawning console
+[2022.10.30-23.42.39:570][  0]LogLiveCoding: Display: Waiting for server
+[2022.10.30-23.42.39:570][  0]LogLiveCoding: Display: Successfully initialized, removing startup thread
+[2022.10.30-23.42.39:587][  0]LogInit: Transaction tracking system initialized
+[2022.10.30-23.42.39:662][  0]BlueprintLog: New page: Editor Load
+[2022.10.30-23.42.39:854][  0]LocalizationService: Localization service is disabled
+[2022.10.30-23.42.39:900][  0]TimingProfiler: Initialize
+[2022.10.30-23.42.39:900][  0]TimingProfiler: OnSessionChanged
+[2022.10.30-23.42.39:900][  0]LoadingProfiler: Initialize
+[2022.10.30-23.42.39:900][  0]LoadingProfiler: OnSessionChanged
+[2022.10.30-23.42.39:900][  0]NetworkingProfiler: Initialize
+[2022.10.30-23.42.39:901][  0]NetworkingProfiler: OnSessionChanged
+[2022.10.30-23.42.39:901][  0]MemoryProfiler: Initialize
+[2022.10.30-23.42.39:901][  0]MemoryProfiler: OnSessionChanged
+[2022.10.30-23.42.40:079][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2022.10.30-23.42.40:079][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2022.10.30-23.42.40:080][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2022.10.30-23.42.40:467][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Fieran/Documents/Unreal Projects/TheTower/Content/' took 0.00s
+[2022.10.30-23.42.40:467][  0]LogLevelSequenceEditor: LevelSequenceEditor subsystem initialized.
+[2022.10.30-23.42.40:580][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2022.10.30-23.42.40:582][  0]SourceControl: Source control is disabled
+[2022.10.30-23.42.40:582][  0]LogUnrealEdMisc: Loading editor; pre map load, took 8.306
+[2022.10.30-23.42.40:582][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Fieran/Documents/Unreal Projects/TheTower/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.10.30-23.42.40:583][  0]LightingResults: New page: Lighting Build
+[2022.10.30-23.42.40:589][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.10.30-23.42.40:589][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.30-23.42.40:589][  0]MapCheck: New page: Map Check
+[2022.10.30-23.42.40:589][  0]LightingResults: New page: Lighting Build
+[2022.10.30-23.42.40:594][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.10.30-23.42.40:597][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2022.10.30-23.42.40:902][  0]LogStaticMesh: StaticMesh /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 should be resaved to improve async compilation performance.
+[2022.10.30-23.42.40:912][  0]LogStaticMesh: StaticMesh /Game/StarterContent/Props/SM_Chair.SM_Chair should be resaved to improve async compilation performance.
+[2022.10.30-23.42.40:919][  0]LogStaticMesh: StaticMesh /Game/StarterContent/Props/SM_Statue.SM_Statue should be resaved to improve async compilation performance.
+[2022.10.30-23.42.40:925][  0]LogStaticMesh: StaticMesh /Game/StarterContent/Props/SM_TableRound.SM_TableRound should be resaved to improve async compilation performance.
+[2022.10.30-23.42.40:936][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Minimal_Default'.
+[2022.10.30-23.42.40:936][  0]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.30-23.42.40:936][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.30-23.42.40:936][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2022.10.30-23.42.40:942][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.10.30-23.42.40:948][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2022.10.30-23.42.40:948][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.10.30-23.42.40:949][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.125ms to complete.
+[2022.10.30-23.42.40:949][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.367
+[2022.10.30-23.42.40:959][  0]LogUnrealEdMisc: Total Editor Startup Time, took 8.684
+[2022.10.30-23.42.40:960][  0]LogShaderCompilers: Display: ================================================
+[2022.10.30-23.42.40:960][  0]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.10.30-23.42.40:960][  0]LogShaderCompilers: Display: Total job queries 0, among them cache hits 0 (0.00%)
+[2022.10.30-23.42.40:960][  0]LogShaderCompilers: Display: Tracking 0 distinct input hashes that result in 0 distinct outputs (0.00%)
+[2022.10.30-23.42.40:960][  0]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.00%
+[2022.10.30-23.42.40:960][  0]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.10.30-23.42.40:960][  0]LogShaderCompilers: Display: Shaders Compiled: 0
+[2022.10.30-23.42.40:960][  0]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2022.10.30-23.42.40:960][  0]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2022.10.30-23.42.40:960][  0]LogShaderCompilers: Display: ================================================
+[2022.10.30-23.42.41:050][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.30-23.42.41:055][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.30-23.42.41:060][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.30-23.42.41:064][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.30-23.42.41:123][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/StarterContent.upack', mount point: 'root:/'
+[2022.10.30-23.42.41:123][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.10.30-23.42.41:128][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_FirstPerson.upack', mount point: 'root:/'
+[2022.10.30-23.42.41:128][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.10.30-23.42.41:133][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_FirstPersonBP.upack', mount point: 'root:/'
+[2022.10.30-23.42.41:133][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.10.30-23.42.41:137][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_HandheldARBP.upack', mount point: 'root:/'
+[2022.10.30-23.42.41:137][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.10.30-23.42.41:147][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_ThirdPerson.upack', mount point: 'root:/'
+[2022.10.30-23.42.41:147][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.10.30-23.42.41:152][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_ThirdPersonBP.upack', mount point: 'root:/'
+[2022.10.30-23.42.41:152][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.10.30-23.42.41:156][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_TopDown.upack', mount point: 'root:/'
+[2022.10.30-23.42.41:156][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.10.30-23.42.41:160][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_TopDownBP.upack', mount point: 'root:/'
+[2022.10.30-23.42.41:160][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.10.30-23.42.41:163][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_VehicleAdvBP.upack', mount point: 'root:/'
+[2022.10.30-23.42.41:163][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.10.30-23.42.41:166][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_VirtualRealityBP.upack', mount point: 'root:/'
+[2022.10.30-23.42.41:166][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.10.30-23.42.41:166][  0]LogFeaturePack: Error: Error in Feature pack C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_VirtualRealityBP.upack. Failed to parse manifest: Invalid Json Token. Line: 43 Ch: 4
+[2022.10.30-23.42.41:326][  0]LogSlate: Took 0.000136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.10.30-23.42.41:332][  0]LogSlate: Took 0.003464 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.10.30-23.42.41:337][  0]LogSlate: Took 0.005410 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2022.10.30-23.42.41:355][  0]LogViewport: Scene viewport resized to 1988x1302, mode Windowed.
+[2022.10.30-23.42.41:572][  0]LogStall: Startup...
+[2022.10.30-23.42.41:574][  0]LogStall: Startup complete.
+[2022.10.30-23.42.41:598][  0]LogLoad: (Engine Initialization) Total time: 9.32 seconds
+[2022.10.30-23.42.41:598][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2022.10.30-23.42.41:626][  0]LogAssetRegistry: Asset discovery search completed in 6.3500 seconds
+[2022.10.30-23.42.41:635][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2022.10.30-23.42.41:654][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2022.10.30-23.42.41:684][  0]LogSlate: Took 0.000066 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.10.30-23.42.45:600][382]Cmd: DELETE
+[2022.10.30-23.42.45:600][382]Cmd: ACTOR DELETE
+[2022.10.30-23.42.45:601][382]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.10.30-23.42.45:608][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2022.10.30-23.42.45:608][382]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2022.10.30-23.42.46:246][450]Cmd: DELETE
+[2022.10.30-23.42.46:246][450]Cmd: ACTOR DELETE
+[2022.10.30-23.42.46:248][450]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2022.10.30-23.42.46:253][450]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2022.10.30-23.42.46:254][450]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2022.10.30-23.42.47:534][603]Cmd: TRANSACTION UNDO
+[2022.10.30-23.42.47:534][603]LogEditorTransaction: Undo Delete Elements
+[2022.10.30-23.42.48:823][705]Cmd: DELETE
+[2022.10.30-23.42.48:823][705]Cmd: ACTOR DELETE
+[2022.10.30-23.42.48:824][705]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.10.30-23.42.48:830][705]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2022.10.30-23.42.48:830][705]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2022.10.30-23.42.49:583][786]Cmd: DELETE
+[2022.10.30-23.42.49:583][786]Cmd: ACTOR DELETE
+[2022.10.30-23.42.49:584][786]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.10.30-23.42.49:590][786]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2022.10.30-23.42.49:590][786]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2022.10.30-23.42.50:409][872]Cmd: DELETE
+[2022.10.30-23.42.50:409][872]Cmd: ACTOR DELETE
+[2022.10.30-23.42.50:411][872]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.10.30-23.42.50:416][872]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2022.10.30-23.42.50:417][872]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2022.10.30-23.42.51:009][933]Cmd: DELETE
+[2022.10.30-23.42.51:009][933]Cmd: ACTOR DELETE
+[2022.10.30-23.42.51:010][933]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.10.30-23.42.51:016][933]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2022.10.30-23.42.51:016][933]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2022.10.30-23.42.51:604][995]Cmd: DELETE
+[2022.10.30-23.42.51:604][995]Cmd: ACTOR DELETE
+[2022.10.30-23.42.51:606][995]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.10.30-23.42.51:611][995]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2022.10.30-23.42.51:612][995]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2022.10.30-23.43.01:809][680]LogSlate: Window 'Choose Location for importing the scene content' being destroyed
+[2022.10.30-23.43.01:861][680]LogFactory: FactoryCreateFile: World with FbxSceneImportFactory (0 0 ../../../../../../Users/Fieran/Documents/University/Masters/3D/Project/The Tower.fbx)
+[2022.10.30-23.43.01:892][680]LogFbx: Loading FBX Scene from ../../../../../../Users/Fieran/Documents/University/Masters/3D/Project/The Tower.fbx
+[2022.10.30-23.43.01:946][680]LogFbx: FBX Scene Loaded Succesfully
+[2022.10.30-23.43.08:846][680]LogSlate: Window 'FBX Scene Import Options' being destroyed
+[2022.10.30-23.43.08:874][680]LogTexture: Display: Building textures: /Game/TexturesCom_Stone_SlabGranite_512_albedo.TexturesCom_Stone_SlabGranite_512_albedo (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.08:878][680]LogTexture: Display: Building textures: /Game/TexturesCom_Stone_SlabGranite_512_roughness.TexturesCom_Stone_SlabGranite_512_roughness (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.08:878][680]LogMaterial: Display: Missing cached shadermap for Granite_002 in PCD3D_SM5, Default, SM5 (DDC key hash: 4BC1F4C3D3681C9E3914784F9D21A3E55C99004F), compiling. 
+[2022.10.30-23.43.08:882][680]LogFbx: Display: Triangulating static mesh Ground
+[2022.10.30-23.43.08:884][680]LogStaticMesh: Display: Building static mesh Cube...
+[2022.10.30-23.43.08:886][680]LogStaticMesh: Built static mesh [0.00s] /Game/Cube.Cube
+[2022.10.30-23.43.08:950][680]LogTexture: Display: Building textures: /Game/TexturesCom_LargeMedievalBrick_1K_albedo.TexturesCom_LargeMedievalBrick_1K_albedo (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.08:950][680]LogTexture: Display: Building textures: /Game/TexturesCom_LargeMedievalBrick_1K_height.TexturesCom_LargeMedievalBrick_1K_height (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 10.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.08:953][680]LogMaterial: Display: Missing cached shadermap for Brick in PCD3D_SM5, Default, SM5 (DDC key hash: FE73CD19FAB2F20DA1A20D48B655F7A65FF85D15), compiling. 
+[2022.10.30-23.43.08:954][680]LogMaterial: Warning: [AssetLog] /Game/Brick.Brick (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSample) Sampler type is Color, should be Linear Color for /Game/TexturesCom_LargeMedievalBrick_1K_height.TexturesCom_LargeMedievalBrick_1K_height
+
+[2022.10.30-23.43.08:970][680]LogTexture: Display: Building textures: /Game/TexturesCom_Wood_MahoganyVeneer_512_albedo.TexturesCom_Wood_MahoganyVeneer_512_albedo (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.08:975][680]LogTexture: Display: Building textures: /Game/TexturesCom_Wood_MahoganyVeneer_512_roughness.TexturesCom_Wood_MahoganyVeneer_512_roughness (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.08:975][680]LogMaterial: Display: Missing cached shadermap for Mahogany in PCD3D_SM5, Default, SM5 (DDC key hash: 98CB8877685A3B791D27130BCD5E5886ECB334E9), compiling. 
+[2022.10.30-23.43.08:978][680]LogFbx: Display: Triangulating static mesh TowerBase
+[2022.10.30-23.43.08:984][680]LogStaticMesh: Display: Building static mesh Cylinder_007...
+[2022.10.30-23.43.08:989][680]LogStaticMesh: Built static mesh [0.01s] /Game/Cylinder_007.Cylinder_007
+[2022.10.30-23.43.08:995][680]LogFbx: Display: Triangulating static mesh Tower1stloor
+[2022.10.30-23.43.08:997][680]LogStaticMesh: Display: Building static mesh Cylinder_008...
+[2022.10.30-23.43.09:001][680]LogStaticMesh: Built static mesh [0.00s] /Game/Cylinder_008.Cylinder_008
+[2022.10.30-23.43.09:006][680]LogFbx: Display: Triangulating static mesh Tower2ndFloor
+[2022.10.30-23.43.09:009][680]LogStaticMesh: Display: Building static mesh Cylinder_010...
+[2022.10.30-23.43.09:014][680]LogStaticMesh: Built static mesh [0.00s] /Game/Cylinder_010.Cylinder_010
+[2022.10.30-23.43.09:019][680]LogFbx: Display: Triangulating static mesh Tower3rdFloor
+[2022.10.30-23.43.09:022][680]LogStaticMesh: Display: Building static mesh Cylinder_011...
+[2022.10.30-23.43.09:026][680]LogStaticMesh: Built static mesh [0.00s] /Game/Cylinder_011.Cylinder_011
+[2022.10.30-23.43.09:026][680]LogStaticMesh: Warning: Cylinder_011 has some nearly zero normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.30-23.43.09:026][680]LogStaticMesh: Warning: Cylinder_011 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.30-23.43.09:045][680]LogTexture: Display: Building textures: /Game/TexturesCom_Stone_SlabGranite_512_albedo_ncl1_1.TexturesCom_Stone_SlabGranite_512_albedo_ncl1_1 (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.09:048][680]LogTexture: Display: Building textures: /Game/TexturesCom_Stone_SlabGranite_512_roughness_ncl1_1.TexturesCom_Stone_SlabGranite_512_roughness_ncl1_1 (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.09:048][680]LogMaterial: Display: Missing cached shadermap for Granite in PCD3D_SM5, Default, SM5 (DDC key hash: 2B0E002C9E50A75FE4E8237470D1A56F07D56CF4), compiling. 
+[2022.10.30-23.43.09:052][680]LogFbx: Display: Triangulating static mesh TowerRoof
+[2022.10.30-23.43.09:060][680]LogStaticMesh: Display: Building static mesh Cylinder_013...
+[2022.10.30-23.43.09:065][680]LogStaticMesh: Built static mesh [0.01s] /Game/Cylinder_013.Cylinder_013
+[2022.10.30-23.43.09:066][680]LogStaticMesh: Warning: Cylinder_013 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2022.10.30-23.43.09:066][680]LogStaticMesh: Warning: Cylinder_013 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.30-23.43.09:083][680]LogTexture: Display: Building textures: /Game/TexturesCom_Plastic_Bakelite_512_albedo.TexturesCom_Plastic_Bakelite_512_albedo (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.09:086][680]LogTexture: Display: Building textures: /Game/TexturesCom_Plastic_Bakelite_512_roughness.TexturesCom_Plastic_Bakelite_512_roughness (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.09:086][680]LogMaterial: Display: Missing cached shadermap for Ruby_001 in PCD3D_SM5, Default, SM5 (DDC key hash: 9955FB8BE6F1B7CBF82FE8E29FAA400CDA65376E), compiling. 
+[2022.10.30-23.43.09:102][680]LogTexture: Display: Building textures: /Game/TexturesCom_Metal_FineGold_512_albedo.TexturesCom_Metal_FineGold_512_albedo (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.09:106][680]LogTexture: Display: Building textures: /Game/TexturesCom_Metal_FineGold_512_roughness.TexturesCom_Metal_FineGold_512_roughness (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.09:106][680]LogMaterial: Display: Missing cached shadermap for Gold in PCD3D_SM5, Default, SM5 (DDC key hash: C4B6BDDE71D67132221264D7EBC084D558D14048), compiling. 
+[2022.10.30-23.43.09:123][680]LogTexture: Display: Building textures: /Game/TexturesCom_Metal_SteelDamascus_512_albedo.TexturesCom_Metal_SteelDamascus_512_albedo (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.09:128][680]LogTexture: Display: Building textures: /Game/TexturesCom_Metal_SteelDamascus_512_roughness.TexturesCom_Metal_SteelDamascus_512_roughness (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.09:128][680]LogMaterial: Display: Missing cached shadermap for Steel in PCD3D_SM5, Default, SM5 (DDC key hash: 800DA8216C5343F74162DF829E8AC23450D2AFBD), compiling. 
+[2022.10.30-23.43.09:130][680]LogFbx: Display: Triangulating static mesh Sword
+[2022.10.30-23.43.09:139][680]LogStaticMesh: Display: Building static mesh Cube_001...
+[2022.10.30-23.43.09:146][680]LogStaticMesh: Built static mesh [0.01s] /Game/Cube_001.Cube_001
+[2022.10.30-23.43.09:147][680]LogStaticMesh: Warning: Cube_001 has some nearly zero normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.30-23.43.09:147][680]LogStaticMesh: Warning: Cube_001 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.30-23.43.09:152][680]LogFbx: Display: Triangulating static mesh Spear
+[2022.10.30-23.43.09:160][680]LogStaticMesh: Display: Building static mesh Cube_002...
+[2022.10.30-23.43.09:164][680]LogStaticMesh: Built static mesh [0.00s] /Game/Cube_002.Cube_002
+[2022.10.30-23.43.09:165][680]LogStaticMesh: Warning: Cube_002 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2022.10.30-23.43.09:165][680]LogStaticMesh: Warning: Cube_002 has some nearly zero normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.30-23.43.09:165][680]LogStaticMesh: Warning: Cube_002 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.30-23.43.09:170][680]LogFbx: Display: Triangulating static mesh Warhammer
+[2022.10.30-23.43.09:175][680]LogStaticMesh: Display: Building static mesh Cube_003...
+[2022.10.30-23.43.09:179][680]LogStaticMesh: Built static mesh [0.00s] /Game/Cube_003.Cube_003
+[2022.10.30-23.43.09:180][680]LogStaticMesh: Warning: Cube_003 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2022.10.30-23.43.09:180][680]LogStaticMesh: Warning: Cube_003 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.30-23.43.09:252][680]LogTexture: Display: Building textures: /Game/TexturesCom_Metal_RedHotSteel_1K_albedo.TexturesCom_Metal_RedHotSteel_1K_albedo (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.09:252][680]LogTexture: Display: Building textures: /Game/TexturesCom_Metal_RedHotSteel_1K_emissive.TexturesCom_Metal_RedHotSteel_1K_emissive (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.09:257][680]LogMaterial: Display: Missing cached shadermap for Material_001 in PCD3D_SM5, Default, SM5 (DDC key hash: 72157542A52A097E82C4094E516F3401383044A9), compiling. 
+[2022.10.30-23.43.09:259][680]LogTexture: Display: Building textures: /Game/TexturesCom_Metal_RedHotSteel_1K_roughness.TexturesCom_Metal_RedHotSteel_1K_roughness (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.09:260][680]LogFbx: Display: Triangulating static mesh Glow orb
+[2022.10.30-23.43.09:284][680]LogStaticMesh: Display: Building static mesh Cube_006...
+[2022.10.30-23.43.09:296][680]LogStaticMesh: Built static mesh [0.01s] /Game/Cube_006.Cube_006
+[2022.10.30-23.43.09:315][680]LogTexture: Display: Building textures: /Game/TexturesCom_Metal_FineGold_512_albedo_ncl1_1.TexturesCom_Metal_FineGold_512_albedo_ncl1_1 (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.09:315][680]LogTexture: Display: Building textures: /Game/TexturesCom_Metal_FineGold_512_roughness_ncl1_1.TexturesCom_Metal_FineGold_512_roughness_ncl1_1 (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.09:319][680]LogMaterial: Display: Missing cached shadermap for Gold_003 in PCD3D_SM5, Default, SM5 (DDC key hash: 8CB6CE484D2AE19D0054CBF519A12FC3166D3481), compiling. 
+[2022.10.30-23.43.09:387][680]LogTexture: Display: Building textures: /Game/TexturesCom_Metal_RedHotSteel_1K_albedo_ncl1_1.TexturesCom_Metal_RedHotSteel_1K_albedo_ncl1_1 (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.09:387][680]LogTexture: Display: Building textures: /Game/TexturesCom_Metal_RedHotSteel_1K_emissive_ncl1_1.TexturesCom_Metal_RedHotSteel_1K_emissive_ncl1_1 (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.09:391][680]LogMaterial: Display: Missing cached shadermap for Material_002 in PCD3D_SM5, Default, SM5 (DDC key hash: 47F59AEB36A22B7200DCEC48232169E76D065589), compiling. 
+[2022.10.30-23.43.09:394][680]LogFbx: Display: Triangulating static mesh Glow orb.001
+[2022.10.30-23.43.09:423][680]LogTexture: Display: Building textures: /Game/TexturesCom_Metal_RedHotSteel_1K_roughness_ncl1_1.TexturesCom_Metal_RedHotSteel_1K_roughness_ncl1_1 (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.09:423][680]LogStaticMesh: Display: Building static mesh Cube_007...
+[2022.10.30-23.43.09:433][680]LogStaticMesh: Built static mesh [0.01s] /Game/Cube_007.Cube_007
+[2022.10.30-23.43.09:456][680]LogTexture: Display: Building textures: /Game/TexturesCom_Stone_SlabGranite_512_albedo_ncl1_2.TexturesCom_Stone_SlabGranite_512_albedo_ncl1_2 (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.09:459][680]LogTexture: Display: Building textures: /Game/TexturesCom_Stone_SlabGranite_512_roughness_ncl1_2.TexturesCom_Stone_SlabGranite_512_roughness_ncl1_2 (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.09:459][680]LogMaterial: Display: Missing cached shadermap for Granite_003 in PCD3D_SM5, Default, SM5 (DDC key hash: 24A62335827B2FB3851F35EDE1E4D3EDD7AAF410), compiling. 
+[2022.10.30-23.43.09:475][680]LogTexture: Display: Building textures: /Game/TexturesCom_Metal_FineGold_512_albedo_ncl1_2.TexturesCom_Metal_FineGold_512_albedo_ncl1_2 (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.09:479][680]LogTexture: Display: Building textures: /Game/TexturesCom_Metal_FineGold_512_roughness_ncl1_2.TexturesCom_Metal_FineGold_512_roughness_ncl1_2 (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.09:479][680]LogMaterial: Display: Missing cached shadermap for Gold_004 in PCD3D_SM5, Default, SM5 (DDC key hash: 4F0C496C8314F2D0DD5E579CE62E536DC3778F07), compiling. 
+[2022.10.30-23.43.09:549][680]LogTexture: Display: Building textures: /Game/TexturesCom_Metal_RedHotSteel_1K_albedo_ncl1_2.TexturesCom_Metal_RedHotSteel_1K_albedo_ncl1_2 (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.09:549][680]LogTexture: Display: Building textures: /Game/TexturesCom_Metal_RedHotSteel_1K_emissive_ncl1_2.TexturesCom_Metal_RedHotSteel_1K_emissive_ncl1_2 (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.09:553][680]LogMaterial: Display: Missing cached shadermap for Material_003 in PCD3D_SM5, Default, SM5 (DDC key hash: FE8EB2406CC02D9BAC29ACB010913C7D35045A17), compiling. 
+[2022.10.30-23.43.09:555][680]LogTexture: Display: Building textures: /Game/TexturesCom_Metal_RedHotSteel_1K_roughness_ncl1_2.TexturesCom_Metal_RedHotSteel_1K_roughness_ncl1_2 (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.09:556][680]LogFbx: Display: Triangulating static mesh Glow orb.002
+[2022.10.30-23.43.09:581][680]LogStaticMesh: Display: Building static mesh Cube_008...
+[2022.10.30-23.43.09:591][680]LogStaticMesh: Built static mesh [0.01s] /Game/Cube_008.Cube_008
+[2022.10.30-23.43.09:613][680]LogTexture: Display: Building textures: /Game/TexturesCom_Stone_SlabGranite_512_albedo_ncl1_3.TexturesCom_Stone_SlabGranite_512_albedo_ncl1_3 (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.09:616][680]LogTexture: Display: Building textures: /Game/TexturesCom_Stone_SlabGranite_512_roughness_ncl1_3.TexturesCom_Stone_SlabGranite_512_roughness_ncl1_3 (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.09:616][680]LogMaterial: Display: Missing cached shadermap for Granite_004 in PCD3D_SM5, Default, SM5 (DDC key hash: B16268FACAD38703B3628C8B1E2F5CC4053CA099), compiling. 
+[2022.10.30-23.43.09:633][680]LogTexture: Display: Building textures: /Game/TexturesCom_Metal_FineGold_512_albedo_ncl1_3.TexturesCom_Metal_FineGold_512_albedo_ncl1_3 (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.09:636][680]LogTexture: Display: Building textures: /Game/TexturesCom_Metal_FineGold_512_roughness_ncl1_3.TexturesCom_Metal_FineGold_512_roughness_ncl1_3 (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.09:636][680]LogMaterial: Display: Missing cached shadermap for Gold_005 in PCD3D_SM5, Default, SM5 (DDC key hash: FDCDD8DCDECBDC8869EF5AC8F34CAD9CAF8BD690), compiling. 
+[2022.10.30-23.43.09:706][680]LogTexture: Display: Building textures: /Game/TexturesCom_Metal_RedHotSteel_1K_albedo_ncl1_3.TexturesCom_Metal_RedHotSteel_1K_albedo_ncl1_3 (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.09:706][680]LogTexture: Display: Building textures: /Game/TexturesCom_Metal_RedHotSteel_1K_emissive_ncl1_3.TexturesCom_Metal_RedHotSteel_1K_emissive_ncl1_3 (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.09:710][680]LogTexture: Display: Building textures: /Game/TexturesCom_Metal_RedHotSteel_1K_roughness_ncl1_3.TexturesCom_Metal_RedHotSteel_1K_roughness_ncl1_3 (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.09:710][680]LogMaterial: Display: Missing cached shadermap for Material_004 in PCD3D_SM5, Default, SM5 (DDC key hash: F3D304CA66588E584DA36D9C777E10C406AA920C), compiling. 
+[2022.10.30-23.43.09:714][680]LogFbx: Display: Triangulating static mesh Glow orb.003
+[2022.10.30-23.43.09:736][680]LogStaticMesh: Display: Building static mesh Cube_009...
+[2022.10.30-23.43.09:747][680]LogStaticMesh: Built static mesh [0.01s] /Game/Cube_009.Cube_009
+[2022.10.30-23.43.09:769][680]LogTexture: Display: Building textures: /Game/TexturesCom_Stone_SlabGranite_512_albedo_ncl1_4.TexturesCom_Stone_SlabGranite_512_albedo_ncl1_4 (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.09:772][680]LogTexture: Display: Building textures: /Game/TexturesCom_Stone_SlabGranite_512_roughness_ncl1_4.TexturesCom_Stone_SlabGranite_512_roughness_ncl1_4 (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.09:772][680]LogMaterial: Display: Missing cached shadermap for Granite_005 in PCD3D_SM5, Default, SM5 (DDC key hash: C3E0B1749A032C69D4B2900077AEABAE96B05F1D), compiling. 
+[2022.10.30-23.43.09:788][680]LogTexture: Display: Building textures: /Game/TexturesCom_Metal_FineGold_512_albedo_ncl1_4.TexturesCom_Metal_FineGold_512_albedo_ncl1_4 (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.09:788][680]LogTexture: Display: Building textures: /Game/TexturesCom_Metal_FineGold_512_roughness_ncl1_4.TexturesCom_Metal_FineGold_512_roughness_ncl1_4 (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.09:791][680]LogMaterial: Display: Missing cached shadermap for Gold_006 in PCD3D_SM5, Default, SM5 (DDC key hash: 8EBF8399733F7848402412718B256EAC1367BF75), compiling. 
+[2022.10.30-23.43.09:864][680]LogTexture: Display: Building textures: /Game/TexturesCom_Metal_RedHotSteel_1K_albedo_ncl1_4.TexturesCom_Metal_RedHotSteel_1K_albedo_ncl1_4 (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.09:864][680]LogTexture: Display: Building textures: /Game/TexturesCom_Metal_RedHotSteel_1K_emissive_ncl1_4.TexturesCom_Metal_RedHotSteel_1K_emissive_ncl1_4 (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.09:868][680]LogTexture: Display: Building textures: /Game/TexturesCom_Metal_RedHotSteel_1K_roughness_ncl1_4.TexturesCom_Metal_RedHotSteel_1K_roughness_ncl1_4 (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.09:868][680]LogMaterial: Display: Missing cached shadermap for Material_005 in PCD3D_SM5, Default, SM5 (DDC key hash: 60379240E1BB80D7D3CBB08ED9C80CC6AFAECD4E), compiling. 
+[2022.10.30-23.43.09:872][680]LogFbx: Display: Triangulating static mesh Glow orb.004
+[2022.10.30-23.43.09:896][680]LogStaticMesh: Display: Building static mesh Cube_010...
+[2022.10.30-23.43.09:907][680]LogStaticMesh: Built static mesh [0.01s] /Game/Cube_010.Cube_010
+[2022.10.30-23.43.09:929][680]LogTexture: Display: Building textures: /Game/TexturesCom_Stone_SlabGranite_512_albedo_ncl1_5.TexturesCom_Stone_SlabGranite_512_albedo_ncl1_5 (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.09:932][680]LogTexture: Display: Building textures: /Game/TexturesCom_Stone_SlabGranite_512_roughness_ncl1_5.TexturesCom_Stone_SlabGranite_512_roughness_ncl1_5 (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.09:932][680]LogMaterial: Display: Missing cached shadermap for Granite_006 in PCD3D_SM5, Default, SM5 (DDC key hash: EA30DCB0ADC00A9EE8BCFA7CA14AB39A0DF9C651), compiling. 
+[2022.10.30-23.43.09:948][680]LogTexture: Display: Building textures: /Game/TexturesCom_Metal_FineGold_512_albedo_ncl1_5.TexturesCom_Metal_FineGold_512_albedo_ncl1_5 (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.09:948][680]LogTexture: Display: Building textures: /Game/TexturesCom_Metal_FineGold_512_roughness_ncl1_5.TexturesCom_Metal_FineGold_512_roughness_ncl1_5 (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.09:952][680]LogMaterial: Display: Missing cached shadermap for Gold_007 in PCD3D_SM5, Default, SM5 (DDC key hash: DD07F711AF21FEE7E715BE0CC5C3FE672716CA12), compiling. 
+[2022.10.30-23.43.10:021][680]LogTexture: Display: Building textures: /Game/TexturesCom_Metal_RedHotSteel_1K_albedo_ncl1_5.TexturesCom_Metal_RedHotSteel_1K_albedo_ncl1_5 (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.10:021][680]LogTexture: Display: Building textures: /Game/TexturesCom_Metal_RedHotSteel_1K_emissive_ncl1_5.TexturesCom_Metal_RedHotSteel_1K_emissive_ncl1_5 (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.10:026][680]LogMaterial: Display: Missing cached shadermap for Material_006 in PCD3D_SM5, Default, SM5 (DDC key hash: D82D6EC6474450901A36FB191A2EF53F3AB2D644), compiling. 
+[2022.10.30-23.43.10:028][680]LogTexture: Display: Building textures: /Game/TexturesCom_Metal_RedHotSteel_1K_roughness_ncl1_5.TexturesCom_Metal_RedHotSteel_1K_roughness_ncl1_5 (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.10:029][680]LogFbx: Display: Triangulating static mesh Glow orb.005
+[2022.10.30-23.43.10:053][680]LogStaticMesh: Display: Building static mesh Cube_011...
+[2022.10.30-23.43.10:063][680]LogStaticMesh: Built static mesh [0.01s] /Game/Cube_011.Cube_011
+[2022.10.30-23.43.10:085][680]LogTexture: Display: Building textures: /Game/TexturesCom_Stone_SlabGranite_512_albedo_ncl1_6.TexturesCom_Stone_SlabGranite_512_albedo_ncl1_6 (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.10:088][680]LogTexture: Display: Building textures: /Game/TexturesCom_Stone_SlabGranite_512_roughness_ncl1_6.TexturesCom_Stone_SlabGranite_512_roughness_ncl1_6 (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.10:088][680]LogMaterial: Display: Missing cached shadermap for Granite_007 in PCD3D_SM5, Default, SM5 (DDC key hash: 476B15B5264EEFED4295ABCE351BE55CEFE250D7), compiling. 
+[2022.10.30-23.43.10:103][680]LogTexture: Display: Building textures: /Game/TexturesCom_Metal_FineGold_512_albedo_ncl1_6.TexturesCom_Metal_FineGold_512_albedo_ncl1_6 (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.10:103][680]LogTexture: Display: Building textures: /Game/TexturesCom_Metal_FineGold_512_roughness_ncl1_6.TexturesCom_Metal_FineGold_512_roughness_ncl1_6 (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.10:107][680]LogMaterial: Display: Missing cached shadermap for Gold_008 in PCD3D_SM5, Default, SM5 (DDC key hash: 61ADE02397ED2BE90649DA76C38C52DAC7C0AD21), compiling. 
+[2022.10.30-23.43.10:176][680]LogTexture: Display: Building textures: /Game/TexturesCom_Metal_RedHotSteel_1K_albedo_ncl1_6.TexturesCom_Metal_RedHotSteel_1K_albedo_ncl1_6 (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.10:176][680]LogTexture: Display: Building textures: /Game/TexturesCom_Metal_RedHotSteel_1K_emissive_ncl1_6.TexturesCom_Metal_RedHotSteel_1K_emissive_ncl1_6 (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.10:179][680]LogMaterial: Display: Missing cached shadermap for Material_007 in PCD3D_SM5, Default, SM5 (DDC key hash: E4813ACEAAB7482CF1ABD7DABC0A92796B198E11), compiling. 
+[2022.10.30-23.43.10:181][680]LogTexture: Display: Building textures: /Game/TexturesCom_Metal_RedHotSteel_1K_roughness_ncl1_6.TexturesCom_Metal_RedHotSteel_1K_roughness_ncl1_6 (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.10:182][680]LogFbx: Display: Triangulating static mesh Glow orb.006
+[2022.10.30-23.43.10:206][680]LogStaticMesh: Display: Building static mesh Cube_012...
+[2022.10.30-23.43.10:217][680]LogStaticMesh: Built static mesh [0.01s] /Game/Cube_012.Cube_012
+[2022.10.30-23.43.10:238][680]LogTexture: Display: Building textures: /Game/TexturesCom_Stone_SlabGranite_512_albedo_ncl1_7.TexturesCom_Stone_SlabGranite_512_albedo_ncl1_7 (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.10:242][680]LogTexture: Display: Building textures: /Game/TexturesCom_Stone_SlabGranite_512_roughness_ncl1_7.TexturesCom_Stone_SlabGranite_512_roughness_ncl1_7 (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.10:242][680]LogMaterial: Display: Missing cached shadermap for Granite_008 in PCD3D_SM5, Default, SM5 (DDC key hash: 670DB18F5FDAD71E1F60EE67BEAE6413110C866D), compiling. 
+[2022.10.30-23.43.10:258][680]LogTexture: Display: Building textures: /Game/TexturesCom_Metal_FineGold_512_albedo_ncl1_7.TexturesCom_Metal_FineGold_512_albedo_ncl1_7 (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.10:261][680]LogTexture: Display: Building textures: /Game/TexturesCom_Metal_FineGold_512_roughness_ncl1_7.TexturesCom_Metal_FineGold_512_roughness_ncl1_7 (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.10:261][680]LogMaterial: Display: Missing cached shadermap for Gold_009 in PCD3D_SM5, Default, SM5 (DDC key hash: B8E99A18EB5BC055E59BF45451A6F5D8795693B7), compiling. 
+[2022.10.30-23.43.10:329][680]LogTexture: Display: Building textures: /Game/TexturesCom_Metal_RedHotSteel_1K_albedo_ncl1_7.TexturesCom_Metal_RedHotSteel_1K_albedo_ncl1_7 (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.10:329][680]LogTexture: Display: Building textures: /Game/TexturesCom_Metal_RedHotSteel_1K_emissive_ncl1_7.TexturesCom_Metal_RedHotSteel_1K_emissive_ncl1_7 (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.10:334][680]LogTexture: Display: Building textures: /Game/TexturesCom_Metal_RedHotSteel_1K_roughness_ncl1_7.TexturesCom_Metal_RedHotSteel_1K_roughness_ncl1_7 (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.10:334][680]LogMaterial: Display: Missing cached shadermap for Material_008 in PCD3D_SM5, Default, SM5 (DDC key hash: 33F9F3C06CB2DAA77B5FB362305D9BBE04FEABD0), compiling. 
+[2022.10.30-23.43.10:337][680]LogFbx: Display: Triangulating static mesh Glow orb.007
+[2022.10.30-23.43.10:360][680]LogStaticMesh: Display: Building static mesh Cube_013...
+[2022.10.30-23.43.10:370][680]LogStaticMesh: Built static mesh [0.01s] /Game/Cube_013.Cube_013
+[2022.10.30-23.43.10:390][680]LogTexture: Display: Building textures: /Game/TexturesCom_Plastic_Bakelite_512_albedo_ncl1_1.TexturesCom_Plastic_Bakelite_512_albedo_ncl1_1 (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.10:395][680]LogTexture: Display: Building textures: /Game/TexturesCom_Plastic_Bakelite_512_roughness_ncl1_1.TexturesCom_Plastic_Bakelite_512_roughness_ncl1_1 (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.10:395][680]LogMaterial: Display: Missing cached shadermap for Ruby_002 in PCD3D_SM5, Default, SM5 (DDC key hash: 3BD84A8ADAFBCA8FB3A3867821F0462F1DB6B9E0), compiling. 
+[2022.10.30-23.43.10:411][680]LogTexture: Display: Building textures: /Game/TexturesCom_Metal_FineGold_512_albedo_ncl1_8.TexturesCom_Metal_FineGold_512_albedo_ncl1_8 (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.10:412][680]LogTexture: Display: Building textures: /Game/TexturesCom_Metal_FineGold_512_roughness_ncl1_8.TexturesCom_Metal_FineGold_512_roughness_ncl1_8 (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.10:416][680]LogMaterial: Display: Missing cached shadermap for Gold_001 in PCD3D_SM5, Default, SM5 (DDC key hash: 93DC5D497267D5B9A043103BDFB546DA79088208), compiling. 
+[2022.10.30-23.43.10:438][680]LogTexture: Display: Building textures: /Game/TexturesCom_Metal_SteelDamascus_512_albedo_ncl1_1.TexturesCom_Metal_SteelDamascus_512_albedo_ncl1_1 (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.10:439][680]LogTexture: Display: Building textures: /Game/TexturesCom_Metal_SteelDamascus_512_roughness_ncl1_1.TexturesCom_Metal_SteelDamascus_512_roughness_ncl1_1 (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.10:441][680]LogMaterial: Display: Missing cached shadermap for Steel_001 in PCD3D_SM5, Default, SM5 (DDC key hash: 41DFF97692E57B3BE860DC7A67A0DE9770083004), compiling. 
+[2022.10.30-23.43.10:444][680]LogFbx: Display: Triangulating static mesh The
+[2022.10.30-23.43.10:454][680]LogStaticMesh: Display: Building static mesh Cube_004...
+[2022.10.30-23.43.10:459][680]LogStaticMesh: Built static mesh [0.01s] /Game/Cube_004.Cube_004
+[2022.10.30-23.43.10:460][680]LogStaticMesh: Warning: Cube_004 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.30-23.43.10:479][680]LogTexture: Display: Building textures: /Game/TexturesCom_Plastic_Bakelite_512_albedo_ncl1_2.TexturesCom_Plastic_Bakelite_512_albedo_ncl1_2 (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.10:479][680]LogTexture: Display: Building textures: /Game/TexturesCom_Plastic_Bakelite_512_roughness_ncl1_2.TexturesCom_Plastic_Bakelite_512_roughness_ncl1_2 (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.10:482][680]LogMaterial: Display: Missing cached shadermap for Ruby_003 in PCD3D_SM5, Default, SM5 (DDC key hash: A9892801E973603B8286A38006B91CE36A413D0F), compiling. 
+[2022.10.30-23.43.10:499][680]LogTexture: Display: Building textures: /Game/TexturesCom_Metal_FineGold_512_albedo_ncl1_9.TexturesCom_Metal_FineGold_512_albedo_ncl1_9 (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.10:503][680]LogTexture: Display: Building textures: /Game/TexturesCom_Metal_FineGold_512_roughness_ncl1_9.TexturesCom_Metal_FineGold_512_roughness_ncl1_9 (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.10:503][680]LogMaterial: Display: Missing cached shadermap for Gold_002 in PCD3D_SM5, Default, SM5 (DDC key hash: 3A5FC85304ECD3DF0579D46E6E0AB35EFA1AE69D), compiling. 
+[2022.10.30-23.43.10:520][680]LogTexture: Display: Building textures: /Game/TexturesCom_Metal_SteelDamascus_512_albedo_ncl1_2.TexturesCom_Metal_SteelDamascus_512_albedo_ncl1_2 (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.10:523][680]LogTexture: Display: Building textures: /Game/TexturesCom_Metal_SteelDamascus_512_roughness_ncl1_2.TexturesCom_Metal_SteelDamascus_512_roughness_ncl1_2 (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.30-23.43.10:523][680]LogMaterial: Display: Missing cached shadermap for Steel_002 in PCD3D_SM5, Default, SM5 (DDC key hash: 2B3D3C1B2F3D0422EA236011E8C725C3DE5D1E33), compiling. 
+[2022.10.30-23.43.10:525][680]LogFbx: Display: Triangulating static mesh Tower
+[2022.10.30-23.43.10:536][680]LogStaticMesh: Display: Building static mesh Cube_005...
+[2022.10.30-23.43.10:545][680]LogStaticMesh: Built static mesh [0.01s] /Game/Cube_005.Cube_005
+[2022.10.30-23.43.10:546][680]LogStaticMesh: Warning: Cube_005 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2022.10.30-23.43.10:546][680]LogStaticMesh: Warning: Cube_005 has some nearly zero normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.30-23.43.10:546][680]LogStaticMesh: Warning: Cube_005 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.30-23.43.10:597][680]LogStaticMesh: Display: Building static mesh Cube_005...
+[2022.10.30-23.43.10:597][680]LogStaticMesh: Built static mesh [0.01s] /Game/Cube_005.Cube_005
+[2022.10.30-23.43.10:597][680]LogStaticMesh: Warning: Cube_005 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2022.10.30-23.43.10:597][680]LogStaticMesh: Warning: Cube_005 has some nearly zero normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.30-23.43.10:597][680]LogStaticMesh: Warning: Cube_005 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.30-23.43.10:597][680]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.Actor
+[2022.10.30-23.43.10:597][680]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.Actor
+[2022.10.30-23.43.10:597][680]LogActorFactory: Actor Factory spawned Class /Script/Engine.Actor as actor: Actor /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Actor_0
+[2022.10.30-23.43.10:597][680]LogActorFactory: Actor Factory spawned Class /Script/Engine.Actor as actor: Actor /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Actor_0
+[2022.10.30-23.43.10:632][680]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2022.10.30-23.43.10:636][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.Ground' which is static to it. Aborting.
+[2022.10.30-23.43.10:636][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.Camera' which is static to it. Aborting.
+[2022.10.30-23.43.10:636][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.TowerBase' which is static to it. Aborting.
+[2022.10.30-23.43.10:637][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.Tower1stloor' which is static to it. Aborting.
+[2022.10.30-23.43.10:637][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.Tower2ndFloor' which is static to it. Aborting.
+[2022.10.30-23.43.10:637][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.Tower3rdFloor' which is static to it. Aborting.
+[2022.10.30-23.43.10:637][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.TowerRoof' which is static to it. Aborting.
+[2022.10.30-23.43.10:637][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.Sword' which is static to it. Aborting.
+[2022.10.30-23.43.10:637][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.SwordRef' which is static to it. Aborting.
+[2022.10.30-23.43.10:637][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.SpearRef' which is static to it. Aborting.
+[2022.10.30-23.43.10:637][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.Spear' which is static to it. Aborting.
+[2022.10.30-23.43.10:638][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.HammerRef' which is static to it. Aborting.
+[2022.10.30-23.43.10:638][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.Warhammer' which is static to it. Aborting.
+[2022.10.30-23.43.10:638][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.Glow orb' which is static to it. Aborting.
+[2022.10.30-23.43.10:638][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.Glow orb_001' which is static to it. Aborting.
+[2022.10.30-23.43.10:638][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.Glow orb_002' which is static to it. Aborting.
+[2022.10.30-23.43.10:638][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.Light_001' which is static to it. Aborting.
+[2022.10.30-23.43.10:638][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.Light_002' which is static to it. Aborting.
+[2022.10.30-23.43.10:639][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.Glow orb_003' which is static to it. Aborting.
+[2022.10.30-23.43.10:639][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.Glow orb_004' which is static to it. Aborting.
+[2022.10.30-23.43.10:639][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.Glow orb_005' which is static to it. Aborting.
+[2022.10.30-23.43.10:639][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.Glow orb_006' which is static to it. Aborting.
+[2022.10.30-23.43.10:639][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.Glow orb_007' which is static to it. Aborting.
+[2022.10.30-23.43.10:639][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.Light_003' which is static to it. Aborting.
+[2022.10.30-23.43.10:640][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.Light_004' which is static to it. Aborting.
+[2022.10.30-23.43.10:640][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.Light_005' which is static to it. Aborting.
+[2022.10.30-23.43.10:640][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.Light_006' which is static to it. Aborting.
+[2022.10.30-23.43.10:640][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.Light_007' which is static to it. Aborting.
+[2022.10.30-23.43.10:640][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.Light_008' which is static to it. Aborting.
+[2022.10.30-23.43.10:640][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.Light_009' which is static to it. Aborting.
+[2022.10.30-23.43.10:640][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.The' which is static to it. Aborting.
+[2022.10.30-23.43.10:640][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.Tower' which is static to it. Aborting.
+[2022.10.30-23.43.10:642][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.Ground' which is static to it. Aborting.
+[2022.10.30-23.43.10:642][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.Camera' which is static to it. Aborting.
+[2022.10.30-23.43.10:642][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.TowerBase' which is static to it. Aborting.
+[2022.10.30-23.43.10:642][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.Tower1stloor' which is static to it. Aborting.
+[2022.10.30-23.43.10:642][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.Tower2ndFloor' which is static to it. Aborting.
+[2022.10.30-23.43.10:642][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.Tower3rdFloor' which is static to it. Aborting.
+[2022.10.30-23.43.10:642][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.TowerRoof' which is static to it. Aborting.
+[2022.10.30-23.43.10:643][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.Sword' which is static to it. Aborting.
+[2022.10.30-23.43.10:643][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.SwordRef' which is static to it. Aborting.
+[2022.10.30-23.43.10:643][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.SpearRef' which is static to it. Aborting.
+[2022.10.30-23.43.10:643][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.Spear' which is static to it. Aborting.
+[2022.10.30-23.43.10:643][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.HammerRef' which is static to it. Aborting.
+[2022.10.30-23.43.10:643][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.Warhammer' which is static to it. Aborting.
+[2022.10.30-23.43.10:643][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.Glow orb' which is static to it. Aborting.
+[2022.10.30-23.43.10:643][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.Glow orb_001' which is static to it. Aborting.
+[2022.10.30-23.43.10:643][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.Glow orb_002' which is static to it. Aborting.
+[2022.10.30-23.43.10:644][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.Light_001' which is static to it. Aborting.
+[2022.10.30-23.43.10:644][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.Light_002' which is static to it. Aborting.
+[2022.10.30-23.43.10:644][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.Glow orb_003' which is static to it. Aborting.
+[2022.10.30-23.43.10:644][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.Glow orb_004' which is static to it. Aborting.
+[2022.10.30-23.43.10:644][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.Glow orb_005' which is static to it. Aborting.
+[2022.10.30-23.43.10:644][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.Glow orb_006' which is static to it. Aborting.
+[2022.10.30-23.43.10:644][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.Glow orb_007' which is static to it. Aborting.
+[2022.10.30-23.43.10:645][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.Light_003' which is static to it. Aborting.
+[2022.10.30-23.43.10:645][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.Light_004' which is static to it. Aborting.
+[2022.10.30-23.43.10:645][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.Light_005' which is static to it. Aborting.
+[2022.10.30-23.43.10:645][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.Light_006' which is static to it. Aborting.
+[2022.10.30-23.43.10:645][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.Light_007' which is static to it. Aborting.
+[2022.10.30-23.43.10:645][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.Light_008' which is static to it. Aborting.
+[2022.10.30-23.43.10:645][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.Light_009' which is static to it. Aborting.
+[2022.10.30-23.43.10:645][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.The' which is static to it. Aborting.
+[2022.10.30-23.43.10:646][680]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_The_Tower"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_The_Tower_C_0.Tower' which is static to it. Aborting.
+[2022.10.30-23.43.10:659][680]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FbxScene_The_Tower.FbxScene_The_Tower
+[2022.10.30-23.43.10:659][680]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
