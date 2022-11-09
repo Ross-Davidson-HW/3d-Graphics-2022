@@ -53,6 +53,9 @@ A simple glowing orb of lava atop a golden stand. Inspiration was torches such a
 - Each is equipped with a point light, tinted slightly orange, with a radius of 10 metres.
 
 ### Textures used:
+
+All obtained from textures.com
+
 - Gold: Metal Fine Gold - PBR0107
 - Ruby: Bakelite Plastic 1 - PBR0103
 - Granite: Black Granite Slab - PBR0577
