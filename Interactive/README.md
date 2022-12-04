@@ -1,6 +1,6 @@
 This folder covers the Interactive segment of the course.
 
-04/12/2022 Thus far, there has being absolutely no success with OpenGL. While I can run the template and move the Dog around in the window, that is the extent of my success. Loading in my own models caused them to become a distorted mess coloured as if the normal map was the base texture. as can be seen below.
+04/12/2022: Thus far, there has being absolutely no success with OpenGL. While I can run the template and move the Dog around in the window, that is the extent of my success. Loading in my own models caused them to become a distorted mess coloured as if the normal map was the base texture. as can be seen below.
 
 ![image](https://user-images.githubusercontent.com/50166106/205504398-82617764-65ca-4e72-aaa5-9473c8a91203.png)
 
