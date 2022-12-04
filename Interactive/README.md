@@ -12,7 +12,7 @@ While this next one is the Sword model with the normals removed.
 
 ![image](https://user-images.githubusercontent.com/50166106/205504469-36110846-7027-4268-9866-abb18fad0cf7.png)
 
-As a test, I imported the gltf of the dog model into blender to examine what made it so different to my own, as wlel as re-exporting it with the same settings as my tower models to see if that also distorted it, and it did not, leaving me none the wiser as to why this refuses to work. To make matters even more annoying, I attempted to get the W and S keys to work as zoom in and zoom out. Checking the update() method, shows that the W and S keys are worked by the program already.
+As a test, I imported the gltf of the dog model into blender to examine what made it so different to my own, as well as re-exporting it with the same settings as my tower models to see if that also distorted it, and it did not, leaving me none the wiser as to why this refuses to work. To make matters even more annoying, I attempted to get the W and S keys to work as zoom in and zoom out. Checking the update() method, shows that the W and S keys are tracked by the program already.
 
 ![image](https://user-images.githubusercontent.com/50166106/205504565-dcac8326-d6d4-4d3e-9fc9-7e9da75e5272.png)
 
