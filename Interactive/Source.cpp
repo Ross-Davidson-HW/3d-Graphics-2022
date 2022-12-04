@@ -234,7 +234,7 @@ void startup()
 	cout << "RENDERER: " << (char *)glGetString(GL_RENDERER) << endl;	
 
 	cout << endl << "Loading content..." << endl;	
-	content.LoadGLTF("assets/dog2.gltf");
+	content.LoadGLTF("assets/TowerSword.gltf");
 
 	pipeline.CreatePipeline();
 	pipeline.LoadShaders("shaders/vs_model.glsl", "shaders/fs_model.glsl");
@@ -265,8 +265,8 @@ void update()
 	if (keyStatus[GLFW_KEY_RIGHT]) modelRotation.y -= 0.05f;
 	if (keyStatus[GLFW_KEY_UP]) modelRotation.x += 0.05f;
 	if (keyStatus[GLFW_KEY_DOWN]) modelRotation.x -= 0.05f;
-	if (keyStatus[GLFW_KEY_W]) modelPosition.z += 1.10f;
-	if (keyStatus[GLFW_KEY_S]) modelPosition.z -= 1.10f;
+	if (keyStatus[GLFW_KEY_W]) modelPosition.z += 0.10f;
+	if (keyStatus[GLFW_KEY_S]) modelPosition.z -= 0.10f;
 	
 	if (keyStatus[GLFW_KEY_R]) pipeline.ReloadShaders();
 
