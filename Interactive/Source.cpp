@@ -28,7 +28,7 @@ using namespace std;
 #include <glm/gtx/transform.hpp> // Help us with transforms
 using namespace glm;
  
-// #include <tinygltf/tiny_gltf.h> // Model loading library - tiny gltf - https://github.com/syoyo/tinygltf
+#include <tinygltf/tiny_gltf.h> // Model loading library - tiny gltf - https://github.com/syoyo/tinygltf
 // #include "src/stb_image.hpp" // Add library to load images for textures
 
 // #include "src/Mesh.hpp" // Simplest mesh holder and OBJ loader - can update more - from https://github.com/BennyQBD/ModernOpenGLTutorial
@@ -261,13 +261,23 @@ void startup()
 
 void update()
 {
+	// camera move controls
 	if (keyStatus[GLFW_KEY_LEFT]) modelRotation.y += 0.05f;
 	if (keyStatus[GLFW_KEY_RIGHT]) modelRotation.y -= 0.05f;
 	if (keyStatus[GLFW_KEY_UP]) modelRotation.x += 0.05f;
 	if (keyStatus[GLFW_KEY_DOWN]) modelRotation.x -= 0.05f;
-	if (keyStatus[GLFW_KEY_W]) modelPosition.z += 0.10f;
-	if (keyStatus[GLFW_KEY_S]) modelPosition.z -= 0.10f;
+	if (keyStatus[GLFW_KEY_DELETE]) modelRotation.z += 0.05f;
+	if (keyStatus[GLFW_KEY_END]) modelRotation.z -= 0.05f;
+
+	// model move controls
+	if (keyStatus[GLFW_KEY_W]) modelPosition.y += 0.10f;
+	if (keyStatus[GLFW_KEY_S]) modelPosition.y -= 0.10f;
+	if (keyStatus[GLFW_KEY_D]) modelPosition.x += 0.10f;
+	if (keyStatus[GLFW_KEY_A]) modelPosition.x -= 0.10f;
+	if (keyStatus[GLFW_KEY_Q]) modelPosition.z += 0.10f;
+	if (keyStatus[GLFW_KEY_E]) modelPosition.z -= 0.10f;  
 	
+	// reload shaders
 	if (keyStatus[GLFW_KEY_R]) pipeline.ReloadShaders();
 
 	// Start the Dear ImGui frame
@@ -307,6 +317,9 @@ void render()
 	modelMatrix = glm::rotate(modelMatrix, modelRotation.x, glm::vec3(1.0f, 0.0f, 0.0f));
 	modelMatrix = glm::rotate(modelMatrix, modelRotation.y, glm::vec3(0.0f, 1.0f, 0.0f));
 	modelMatrix = glm::rotate(modelMatrix, modelRotation.z, glm::vec3(0.0f, 0.0f, 1.0f));
+	modelMatrix = glm::rotate(modelMatrix, modelPosition.x, glm::vec3(1.0f, 0.0f, 0.0f));
+	modelMatrix = glm::rotate(modelMatrix, modelPosition.y, glm::vec3(0.0f, 1.0f, 0.0f));
+	modelMatrix = glm::rotate(modelMatrix, modelPosition.z, glm::vec3(0.0f, 0.0f, 1.0f));
 	modelMatrix = glm::scale(modelMatrix, glm::vec3(1.2f, 1.2f, 1.2f));
 
 	glm::mat4 mv_matrix = viewMatrix * modelMatrix;
