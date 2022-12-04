@@ -1,13 +1,15 @@
 All of the models created in this section were made in Blender, using textures from Textures.com, which can be found in the folder of the same name.
 
+The RenderShowcase.png image in this folder shows all of the objects, while you can find the combined models and more accurate layout in "The Tower V3" folder for the actual scene.
+
 Models made:
 
 ### The Tower: 
-In fact this is multiple objects to facilitate the animation stage of the project. These are simple cylinders with a stone texture applied for the walls and a wooden texture for the floors. When combined together, they appear rather like a stone tower, or even a Rook from chess. No particular reference was used for this.
+This is multiple objects to facilitate the animation stage of the project. These are simple cylinders with a stone texture applied for the walls and a wooden texture for the floors. When combined together, they appear rather like a stone tower, or even a Rook from chess. No particular reference was used for this.
 - Made using 5 cylinders
 - Each cylinder had the top removed, is the same height, and sits the same distance above the previous
 - The roof is a flatter cylinder, which then has the crenelations raised using an extruded edge, before the outer edge is then raised higher than the inner to give the sloped effect.
-- The floor of each one has a mahogany texture applied, which will be visible during the animation, while the roof is stone around the rim, and granite on the inside.
+- The floor of each one has a mahogany texture applied, which will be visible during the animation, while the roof is stone around the rim, and granite on the inside. The top of the walls also has the mahogany texture applied, to avoid issues with clipping due to the way the models slightly overlap.
 
 ### The Sword: 
 A slender sword with a golden hilt and ruby gem embedded within it. The reference used is the "Marths Falchion" from Fire Emblem.
@@ -16,6 +18,7 @@ A slender sword with a golden hilt and ruby gem embedded within it. The referenc
 - Individual vertices moved to ensure that the measurements on both sides are precise and the same.
 - Some bevelling used on the handle.
 - The majority of the hilt is golden, but using a ruby texture for an embedded gem, as well as some decoration on the actual handle. The blade is steel.
+- Would have been easier to make if I was aware of how to use blenders mirror tools at the time, but through using simple math to keep the vertices the same distance apart, the same effect was achieved.
 
 ### The Spear: 
 A short spear with a metal shaft and a golden ornate headpiece, contianing a ruby, that connects the blade and shaft. This was loosely based on the "Wing Spear" from Fire Emblem.
@@ -50,6 +53,9 @@ A simple glowing orb of lava atop a golden stand. Inspiration was torches such a
 - Each is equipped with a point light, tinted slightly orange, with a radius of 10 metres.
 
 ### Textures used:
+
+All obtained from textures.com
+
 - Gold: Metal Fine Gold - PBR0107
 - Ruby: Bakelite Plastic 1 - PBR0103
 - Granite: Black Granite Slab - PBR0577
