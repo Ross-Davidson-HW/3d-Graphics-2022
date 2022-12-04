@@ -12,7 +12,9 @@ While this next one is the Sword model with the normals removed.
 
 ![image](https://user-images.githubusercontent.com/50166106/205504469-36110846-7027-4268-9866-abb18fad0cf7.png)
 
-As a test, I imported the gltf of the dog model into blender to examine what made it so different to my own, as well as re-exporting it with the same settings as my tower models to see if that also distorted it, and it did not, leaving me none the wiser as to why this refuses to work. To make matters even more annoying, I attempted to get the W and S keys to work. Checking the update() method, shows that the W and S keys are tracked by the program already.
+As a test, I imported the gltf of the dog model into blender to examine what made it so different to my own, as well as re-exporting it with the same settings as my tower models to see if that also distorted it, and it did not, leaving me none the wiser as to why this refuses to work. 
+
+In the end, to at least make some progress, I attempted to get the W and S keys to work. Checking the update() method, shows that the W and S keys are tracked by the program already.
 
 ![image](https://user-images.githubusercontent.com/50166106/205504565-dcac8326-d6d4-4d3e-9fc9-7e9da75e5272.png)
 
@@ -20,7 +22,15 @@ which meant the problem had to be elsewhere. Scrolling down, I found that the mo
 
 ![image](https://user-images.githubusercontent.com/50166106/205508033-fef61290-ac79-4117-8d25-1e8949b34577.png)
 
-Unfortunately, this also did not work at first, leading to more frustrations, until I realised I needed to change modelRotation to modelPosition, which fixed the problem. The only other success thus far was in changing the window dimensions to better match what shape my model should be if it imported correctly.
+Unfortunately, this also did not work at first, leading to more frustrations, until I realised I needed to change modelRotation to modelPosition, which fixed the problem. From here, I figured out how that I can set 6 keys to adjust the camera, and 6 to rotate the model, but making use of modelPostion.x/y/z and modelRotation.x/y/z.
+
+![image](https://user-images.githubusercontent.com/50166106/205508744-806f9f31-342f-4f2c-8b60-d5139f2f41ab.png)
+
+![image](https://user-images.githubusercontent.com/50166106/205508758-b1b6a6da-085c-4229-b450-1b8f341a2c37.png)
+
+Thus giving me at least some small progress.
+
+The only other success thus far was in changing the window dimensions to better match what shape my model should be if it imported correctly.
 
 ![image](https://user-images.githubusercontent.com/50166106/205504672-08b2af97-0135-4d95-b35e-16aa49ef4063.png)
 
