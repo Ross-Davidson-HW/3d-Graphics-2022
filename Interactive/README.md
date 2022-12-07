@@ -67,3 +67,14 @@ This code is largely similar to that on *LearnOpenGL*, with some minor alteratio
 While I could have used the mouse and scroll callbacks already in the template, I felt it better to implement my own from scratch to help me learn how it works.
 
 Ultimately the majority of this not working out falls on myself for not fully preparing or realising how difficult C++ is, combined with my job requiring me to work every Thursday, thus missing the labs. All I can do now is try and learn this outside course time to improve and ensure I am ready once it comes time to join the industry.
+
+*07/12/2022:* After a burst of inspiration, I took another look at the code after I came to fully understand that the model was squished and stretched weirdly. Looking through the template, I found a specific piece of code:
+
+![image](https://user-images.githubusercontent.com/50166106/206276023-1d678af0-db56-4962-9f74-56884c5f22e6.png)
+
+That was set to 1.2f on all three axis. After adjusting these a bit, I realised that this is why my model was been squished to fit into roughly a square shape. After adjusting the values to those shown in the above screenshot however.
+
+![image](https://user-images.githubusercontent.com/50166106/206277313-b7e2ed57-5776-46ad-9858-485b56c62203.png)
+
+We finally have the model displayed mostly correctly. The Y value likely needs some fine tuning as the sword is still not quite right, but is much closer to how it is meant to be now.
+
