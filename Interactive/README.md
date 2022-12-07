@@ -38,7 +38,7 @@ But this is hardly an accomplishment as this is an incredibly simple adjustment 
 
 *06/12/2022:* Progress has been very slow as the model bugs continue to frustrate, to the point even a basic cube was not properly displaying, with the camera seemingly inside the model at all times, no matter what I changed, making it very difficult to parse what was happening. I even rewrote the view script to try and resolve this, setting the camera to be 100f on the Z axis to move it away from the default position, yet the cube seemed to follow it. This is despite the position being set to 0, 0, 0 by default. The only difference in terms of code only occurred after this began occurring, pointing to the issue possibly been the environment, my laptop instead of my PC. As I did nto have access to my PC at this time, I have had to delay trying to fix that until later.
 
-*06/12/2022 Pt2:* Switching back to the PC did indeed help fix the issue mentioned above with the camera, allowing me to once again properly test the models I was importing. Doing this revealing something interesting:
+*06/12/2022 Pt2:* Switching back to the PC did indeed help fix the issue mentioned above with the camera, allowing me to once again properly test the models I was importing. Doing this revealed something interesting:
 
 ![image](https://user-images.githubusercontent.com/50166106/206089163-72e305dc-51ac-4f3b-bf8b-e2d7077a74d3.png)
 
