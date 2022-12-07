@@ -60,6 +60,7 @@ Instead of focusing on what I have failed to achieve, I instead wish to focus on
 
 Working with C++ led to a lot more time spent trying to figure out why certain things did not work. Most of this ended up quite simple, such as declaring the method as a void much like you would a variable at the top of the program, and adjusting the glfw to use my callbacks instead of the ones in the template. Once complete, my mouse callback looks like: 
 ![image](https://user-images.githubusercontent.com/50166106/206096857-235ea7d9-ab4f-431d-b83c-4d3c7e9d8d2f.png)
+
 This code is largely similar to that on *LearnOpenGL*, with some minor alterations. The same can be said for the scroll callback below:
 ![image](https://user-images.githubusercontent.com/50166106/206096943-04b9da87-dee4-44fc-a0de-82eed636f729.png)
 
