@@ -42,7 +42,7 @@ But this is hardly an accomplishment as this is an incredibly simple adjustment 
 
 ![image](https://user-images.githubusercontent.com/50166106/206089163-72e305dc-51ac-4f3b-bf8b-e2d7077a74d3.png)
 
-At first, this just appears to be mys word model viewed at a very low angle from the tip down, but in fact is the entire model, just scrunched down very small. However, if we contrast this with the flat granite platform that sits beneath the tower in my render normally:
+At first, this just appears to be my sword model viewed at a very low angle from the tip down, but in fact is the entire model, just scrunched down very small. However, if we contrast this with the flat granite platform that sits beneath the tower in my render normally:
 
 ![image](https://user-images.githubusercontent.com/50166106/206089261-cfc1b402-1bc2-4124-9840-d50effab6370.png)
 
@@ -65,4 +65,4 @@ This code is largely similar to that on *LearnOpenGL*, with some minor alteratio
 
 While I could have used the mouse and scroll callbacks already in the template, I felt it better to implement my own from scratch to help me learn how it works.
 
-Ultimately the majority of this falls on myself for not fully preparing or realising how difficult C++ is, combined with my job requiring me to work every Thursday, thus missing the labs. 
+Ultimately the majority of this not working out falls on myself for not fully preparing or realising how difficult C++ is, combined with my job requiring me to work every Thursday, thus missing the labs. All I can do now is try and learn this outside course time to improve and ensure I am ready once it comes time to join the industry.
