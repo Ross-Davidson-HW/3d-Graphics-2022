@@ -74,10 +74,10 @@ void onMouseWheelCallback(GLFWwindow *window, double xoffset, double yoffset);
 // VARIABLES
 GLFWwindow *window; 								// Keep track of the window
 auto windowWidth = 1200;								// Window width					
-auto windowHeight =2000;								// Window height
+auto windowHeight =800;								// Window height
 auto running(true);							  		// Are we still running our main loop
 mat4 projMatrix;							 		// Our Projection Matrix
-vec3 cameraPosition = vec3(0.0f, 0.0f, 5.0f);		// Where is our camera
+vec3 cameraPosition = vec3(0.0f, 0.0f, 10.0f);		// Where is our camera
 vec3 cameraFront = vec3(0.0f, 0.0f, -1.0f);			// Camera front vector
 vec3 cameraUp = vec3(0.0f, 1.0f, 0.0f);				// Camera up vector
 auto aspect = (float)windowWidth / (float)windowHeight;	// Window aspect ration
@@ -240,7 +240,7 @@ void startup()
 	pipeline.LoadShaders("shaders/vs_model.glsl", "shaders/fs_model.glsl");
 
 	// Start from the centre
-	modelPosition = glm::vec3(0.0f, 0.0f, 0.0f);
+	modelPosition = glm::vec3(0.0f, 0.0f, 10.0f);
 	modelRotation = glm::vec3(0.0f, 0.0f, 0.0f);
 
 	// A few optimizations.
@@ -307,9 +307,14 @@ void render()
 	glUseProgram(pipeline.pipe.program);
 
 	// Setup camera
-	glm::mat4 viewMatrix = glm::lookAt(cameraPosition,				 // eye
-									   cameraPosition + cameraFront, // centre
-									   cameraUp);					 // up
+	//glm::mat4 viewMatrix = glm::lookAt(cameraPosition,				 // eye
+	//								   cameraPosition + cameraFront, // centre
+	//								   cameraUp);					 // up
+
+	glm::mat4 view;
+	view = glm::lookAt(glm::vec3(0.0f, 0.0f, 100.0f), 
+  		   glm::vec3(0.0f, 0.0f, 0.0f), 
+  		   glm::vec3(0.0f, 1.0f, 0.0f));
 
 	// Do some translations, rotations and scaling
 	// glm::mat4 modelMatrix = glm::translate(glm::mat4(1.0f), glm::vec3(modelPosition.x+rX, modelPosition.y+rY, modelPosition.z+rZ));
@@ -320,12 +325,12 @@ void render()
 	modelMatrix = glm::rotate(modelMatrix, modelPosition.x, glm::vec3(1.0f, 0.0f, 0.0f));
 	modelMatrix = glm::rotate(modelMatrix, modelPosition.y, glm::vec3(0.0f, 1.0f, 0.0f));
 	modelMatrix = glm::rotate(modelMatrix, modelPosition.z, glm::vec3(0.0f, 0.0f, 1.0f));
-	modelMatrix = glm::scale(modelMatrix, glm::vec3(1.2f, 1.2f, 1.2f));
+	modelMatrix = glm::scale(modelMatrix, glm::vec3(0.8f, 0.8f, 0.8f));
 
-	glm::mat4 mv_matrix = viewMatrix * modelMatrix;
+	glm::mat4 mv_matrix = view * modelMatrix;
 
 	glUniformMatrix4fv(glGetUniformLocation(pipeline.pipe.program, "model_matrix"), 1, GL_FALSE, &modelMatrix[0][0]);
-	glUniformMatrix4fv(glGetUniformLocation(pipeline.pipe.program, "view_matrix"), 1, GL_FALSE, &viewMatrix[0][0]);
+	glUniformMatrix4fv(glGetUniformLocation(pipeline.pipe.program, "view_matrix"), 1, GL_FALSE, &view[0][0]);
 	glUniformMatrix4fv(glGetUniformLocation(pipeline.pipe.program, "proj_matrix"), 1, GL_FALSE, &projMatrix[0][0]);
 
 	content.DrawModel(content.vaoAndEbos, content.model);
