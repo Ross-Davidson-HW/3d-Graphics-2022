@@ -70,6 +70,8 @@ void onKeyCallback(GLFWwindow *window, int key, int scancode, int action, int mo
 void onMouseButtonCallback(GLFWwindow *window, int button, int action, int mods);
 void onMouseMoveCallback(GLFWwindow *window, double x, double y);
 void onMouseWheelCallback(GLFWwindow *window, double xoffset, double yoffset);
+void mouse_callback(GLFWwindow* window, double xpos, double ypos);
+void scroll_callback(GLFWwindow* window, double xoffset, double yoffset);
 
 // VARIABLES
 GLFWwindow *window; 								// Keep track of the window
@@ -77,15 +79,28 @@ auto windowWidth = 1200;								// Window width
 auto windowHeight =800;								// Window height
 auto running(true);							  		// Are we still running our main loop
 mat4 projMatrix;							 		// Our Projection Matrix
-vec3 cameraPosition = vec3(0.0f, 0.0f, 10.0f);		// Where is our camera
-vec3 cameraFront = vec3(0.0f, 0.0f, -1.0f);			// Camera front vector
-vec3 cameraUp = vec3(0.0f, 1.0f, 0.0f);				// Camera up vector
+
+// alt of the cam that was originally here, using my own variables and setup. Similar, but slightly different.
+glm::vec3 camPos   = glm::vec3(0.0f, 0.0f,  10.0f);
+glm::vec3 camFront = glm::vec3(0.0f, 0.0f, -1.0f);
+glm::vec3 camUp    = glm::vec3(0.0f, 1.0f,  0.0f);
+
+glm::vec3 lightColor(1.0f, 1.0f, 1.0f);
+glm::vec3 toyColor(0.4f, 0.5f, 0.6f);
+glm::vec3 result = lightColor * toyColor;
+
 auto aspect = (float)windowWidth / (float)windowHeight;	// Window aspect ration
 auto fovy = 45.0f;									// Field of view (y axis)
 bool keyStatus[1024];								// Track key strokes
 auto currentTime = 0.0f;							// Framerate
 auto deltaTime = 0.0f;								// time passed
 auto lastTime = 0.0f;								// Used to calculate Frame rate
+float yaw = -90.0f; 
+float pitch = 0.0f;
+bool firstMouse = true;
+
+float lastX = 400;
+float lastY = 300;
 
 Pipeline pipeline;									// Add one pipeline plus some shaders.
 Content content;									// Add one content loader (+drawing).
@@ -93,6 +108,9 @@ Debugger debugger;									// Add one debugger to use for callbacks ( Win64 - op
 
 vec3 modelPosition;									// Model position
 vec3 modelRotation;									// Model rotation
+
+
+
 
 
 int main()
@@ -137,10 +155,16 @@ int main()
 	glfwSetWindowSizeCallback(window, onResizeCallback);	   // Set callback for resize
 	glfwSetKeyCallback(window, onKeyCallback);				   // Set Callback for keys
 	glfwSetMouseButtonCallback(window, onMouseButtonCallback); // Set callback for mouse click
-	glfwSetCursorPosCallback(window, onMouseMoveCallback);	   // Set callback for mouse move
-	glfwSetScrollCallback(window, onMouseWheelCallback);	   // Set callback for mouse wheel.
+	// glfwSetCursorPosCallback(window, onMouseMoveCallback);	   // Set callback for mouse move
+	// glfwSetScrollCallback(window, onMouseWheelCallback);	   // Set callback for mouse wheel.
+
+	glfwSetCursorPosCallback(window, mouse_callback);   // set callback for my mouse listener
+	glfwSetScrollCallback(window, scroll_callback);	   // Set callback for my mouse wheel listener.
+
 	// glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_NORMAL);	// Set mouse cursor Fullscreen
-	// glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);	// Set mouse cursor FPS fullscreen.
+	glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);	// Set mouse cursor FPS fullscreen.
+
+
 
 	// Setup Dear ImGui and add context	-	https://blog.conan.io/2019/06/26/An-introduction-to-the-Dear-ImGui-library.html
 	IMGUI_CHECKVERSION();
@@ -256,7 +280,7 @@ void startup()
 
 	// Calculate proj_matrix for the first time.
 	aspect = (float)windowWidth / (float)windowHeight;
-	projMatrix = glm::perspective(glm::radians(fovy), aspect, 0.1f, 1000.0f);
+	projMatrix = glm::perspective(glm::radians(fovy), aspect, 0.1f, 100.0f);
 }
 
 void update()
@@ -306,15 +330,14 @@ void render()
 	// Use our shader programs
 	glUseProgram(pipeline.pipe.program);
 
-	// Setup camera
-	//glm::mat4 viewMatrix = glm::lookAt(cameraPosition,				 // eye
-	//								   cameraPosition + cameraFront, // centre
-	//								   cameraUp);					 // up
 
+	
 	glm::mat4 view;
-	view = glm::lookAt(glm::vec3(0.0f, 0.0f, 100.0f), 
-  		   glm::vec3(0.0f, 0.0f, 0.0f), 
-  		   glm::vec3(0.0f, 1.0f, 0.0f));
+	view = glm::lookAt(camPos, camPos + camFront, camUp);
+
+	glm::vec3 direction;
+	direction.x = cos(glm::radians(yaw)); 
+	direction.z = sin(glm::radians(yaw));
 
 	// Do some translations, rotations and scaling
 	// glm::mat4 modelMatrix = glm::translate(glm::mat4(1.0f), glm::vec3(modelPosition.x+rX, modelPosition.y+rY, modelPosition.z+rZ));
@@ -333,11 +356,64 @@ void render()
 	glUniformMatrix4fv(glGetUniformLocation(pipeline.pipe.program, "view_matrix"), 1, GL_FALSE, &view[0][0]);
 	glUniformMatrix4fv(glGetUniformLocation(pipeline.pipe.program, "proj_matrix"), 1, GL_FALSE, &projMatrix[0][0]);
 
+	
+
 	content.DrawModel(content.vaoAndEbos, content.model);
 	
 	#if defined(__APPLE__)
 		glCheckError();
 	#endif
+}
+
+// mouse-movement listener
+void mouse_callback(GLFWwindow* window, double xpos, double ypos)
+{
+	// true by default
+    if (firstMouse)
+    {
+        lastX = xpos;
+        lastY = ypos;
+        firstMouse = false;
+    }
+  
+	// adjusts the offsets and updates the X and Y variables for next call
+    float xoffset = xpos - lastX;
+    float yoffset = lastY - ypos; 
+    lastX = xpos;
+    lastY = ypos;
+
+	// adjusts how strictly the camera moves with the mouse
+    float sensitivity = 0.1f;
+    xoffset *= sensitivity;
+    yoffset *= sensitivity;
+
+	// adjusts the camers yaw and pitch as the mouse is moved
+    yaw   += xoffset;
+    pitch += yoffset;
+
+	// constraints to keep the camera within a certain area
+    if(pitch > 89.0f)
+        pitch = 89.0f;
+    if(pitch < -89.0f)
+        pitch = -89.0f;
+
+	// the cameras direction
+    glm::vec3 direction;
+    direction.x = cos(glm::radians(yaw)) * cos(glm::radians(pitch));
+    direction.y = sin(glm::radians(pitch));
+    direction.z = sin(glm::radians(yaw)) * cos(glm::radians(pitch));
+    camFront = glm::normalize(direction);
+} 
+
+// mouse scroll callback
+void scroll_callback(GLFWwindow* window, double xoffset, double yoffset)
+{
+	// adjusts the fov to allow the camera to zoom in
+    fovy -= (float)yoffset;
+    if (fovy < 1.0f)
+        fovy = 1.0f;
+    if (fovy > 45.0f)
+        fovy = 45.0f; 
 }
 
 void ui()
@@ -387,7 +463,7 @@ void onResizeCallback(GLFWwindow *window, int w, int h)
 	if (windowWidth > 0 && windowHeight > 0)
 	{ // Avoid issues when minimising window - it gives size of 0 which fails division.
 		aspect = (float)w / (float)h;
-		projMatrix = glm::perspective(glm::radians(fovy), aspect, 0.1f, 1000.0f);
+		projMatrix = glm::perspective(glm::radians(fovy), aspect, 0.1f, 100.0f);
 	}
 }
 
@@ -406,16 +482,16 @@ void onMouseButtonCallback(GLFWwindow *window, int button, int action, int mods)
 {
 }
 
-void onMouseMoveCallback(GLFWwindow *window, double x, double y)
-{
-	int mouseX = static_cast<int>(x);
-	int mouseY = static_cast<int>(y);
-}
+// void onMouseMoveCallback(GLFWwindow *window, double x, double y)
+// {
+// 	int mouseX = static_cast<int>(x);
+// 	int mouseY = static_cast<int>(y);
+// }
 
-void onMouseWheelCallback(GLFWwindow *window, double xoffset, double yoffset)
-{
-	int yoffsetInt = static_cast<int>(yoffset);
-}
+// void onMouseWheelCallback(GLFWwindow *window, double xoffset, double yoffset)
+// {
+// 	int yoffsetInt = static_cast<int>(yoffset);
+// }
 
 void APIENTRY openGLDebugCallback(GLenum source,
 								  GLenum type,
